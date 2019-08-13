@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello stranger,"
+title: "Welcome,"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -12,8 +12,8 @@ I am a Machine Learning Research, devising intuitive models for Natural Language
 
 *[intuitive]: “Intuition, [...] is the only tool left to the mathematician in the absence of proof.” Apostolos Doxiadis, Uncle Petros and Goldbach's Conjecture
 
-Currently, I am last year student of [Computer Engineering Department](https://www.ece.ntua.gr/gr), National Technical University of Athens.
-I am working hard on my thesis which is on graph-based sparsifications of [Attention layer](https://arxiv.org/abs/1706.03762), inspired by Network Coding.
+I am studying [Computer Engineering](https://www.ece.ntua.gr/en) at [National Technical University of Athens](https://www.ntua.gr/en/).
+My thesis is on graph-based sparsifications of [Attention layer](https://arxiv.org/abs/1706.03762).
 
 I work as a researcher for [Explosion AI](https://explosion.ai/), the Machine Learning company behind [spaCy](https://spacy.io/).
 
