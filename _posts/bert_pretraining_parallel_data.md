@@ -8,10 +8,10 @@ tags:
   - tensorflow
 ---
 
-Transformer inspired models such as [BERT](), [XLNET]() or [RoBERTa] require
+Transformer inspired models such as [BERT](https://arxiv.org/abs/1810.04805), [XLNET](https://arxiv.org/abs/1906.08237) or [RoBERTa](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) require
 massive data for their unsupervised pre-training.
 
-A common practice in [Tensorflow]() is to store large datasets in
+A common practice in [Tensorflow](https://www.tensorflow.org/) is to store large datasets in
 TFRecord files, an efficient binary storage format. TFRecord files integrate
 seamlessly with the data import and preprocessing functionality in Tensorflow.
 
