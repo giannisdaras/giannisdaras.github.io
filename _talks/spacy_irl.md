@@ -6,7 +6,12 @@ permalink: /talks/spacy_irl
 venue: "spaCyIRL"
 date: 06/07/2019
 location: "Berlin, Germany"
+video: "https://www.youtube.com/embed/KwKr_e7xBQ4"
 ---
-[Attention layer](https://arxiv.org/abs/1706.03762) is a key component to many state-of-the-art models in Natural Language Processing and Computer Vision. However, it requires quadratic time and memory complexity.
-In this talk, factorizations of attention layer in steps are examined. A systematic way for designing and validating such sparsifications is proposed by associating to each factorization a graph and computing the information flow in this graph. Using this method, full information patterns are proposed for an efficient attention layer.
-&nbsp;[![](http://img.youtube.com/vi/KwKr_e7xBQ4/0.jpg)](http://www.youtube.com/watch?v=KwKr_e7xBQ4 "spacy irl")
+
+
+One disadvantage of using attention layers in a neural network architecture is that the memory and time complexity of the operation is quadratic. This talk tries to address the following question: "*Can we design attention layers with lower complexity that are able to discover all dependencies in the input?*".
+The answer seems to be yes, by modeling the problem of introducing sparsity to the attention layer with Information Flow Graphs.
+
+
+The contributions are the following: (i) a theoretical framework for designing new attention patterns is established, (ii) the importance of Full Information, the ability to discover any possible dependency in the input, is discussed, (iii) new attention patterns with Full Information are proposed, reducing the attention complexity to $O(n\sqrt n)$.
