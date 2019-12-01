@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Giannis Daras"
-  avatar           : "avatar.JPG"
+  avatar           : "avatar.jpg"
   bio              : "Machine Learning Researcher, Computer Engineering Student, National Technical University of Athens"
   location         : "Athens, Greece"
   employer         : "Explosion AI"
