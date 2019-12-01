@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome,"
+title: "Welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Research, devising intuitive models for Natural Language Processing and Computer Vision problems.
+My name is Giannis Daras and I am a Machine Learning Researcher based on Greece.
 
-*[intuitive]: “Intuition, [...] is the only tool left to the mathematician in the absence of proof.” Apostolos Doxiadis, Uncle Petros and Goldbach's Conjecture
+I am currently last year student of ECE NTUA and I am applying for Machine Learning Ph.D., starting next year!
 
-I am studying [Computer Engineering](https://www.ece.ntua.gr/en) at [National Technical University of Athens](https://www.ntua.gr/en/).
-My thesis is on graph-based sparsifications of [Attention layer](https://arxiv.org/abs/1706.03762).
 
-I work as a researcher for [Explosion AI](https://explosion.ai/), the Machine Learning company behind [spaCy](https://spacy.io/).
+I work as Machine Learning Researcher for Explosion AI, the company behind spaCy.
 
-I have been chosen to and completed successfully Google Summer of Code 2018, with my project [[1](http://www.nlpbuddy.io/gsoc), [2](https://github.com/eellak/gsoc2018-spacy)] for advancing Greek language understanding models.
+I have been successful student of Google Summer of Code 2018. Goal and outcome of my project [[1](http://www.nlpbuddy.io/gsoc), [2](https://github.com/eellak/gsoc2018-spacy)] was the integration of Greek Language to spaCy and the advancement of Greek NLP.
