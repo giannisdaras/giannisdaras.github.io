@@ -35,8 +35,7 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i>{{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description"><i padding-right="2rem" class="fas fa-map-marker"> </i> Conference: {{ post.venue }}, {{post.location}} {% endif %}
+    <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i><strong>Date: </strong><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{%if post.venue%}, <strong> <i padding-right="2rem" class="fas fa-map-marker"> </i> Conference: </strong> {{post.venue}}, {{post.location}} {%endif%}</p>
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{post.excerpt | markdownify }}</p>{% endif %}
     {% if post.video %}<iframe width="560" height="315" src="{{post.video}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{% endif %}
   </article>
