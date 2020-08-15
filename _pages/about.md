@@ -1,22 +1,22 @@
 ---
 permalink: /
-title: "Welcome!"
-excerpt: "About me"
+title: ""
+layout: single
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-My name is Giannis Daras and I am a Machine Learning Researcher based on Greece.
+I am a first year Computer Science Ph.D. student in UT Austin.
+I am honored to be supervised by Prof. [Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
+I received my undergraduate degree in ECE from National Technical University of Athens (NTUA).
+During my undergraduate studies, I worked as a Machine Learning Researcher in ExplosionAI
+and I successfully completed Google Summer of Code 2018.
 
-I am currently last year student of ECE NTUA and I am applying for Machine Learning Ph.D., starting next year!
+I am interested in the theory and the applications of Machine Learning.
+Recently, I have been publishing in attention networks and inverse problems for generative models.
 
 
-I work as Machine Learning Researcher for Explosion AI, the company behind spaCy.
-
-My research is focused on improving the dense attention layer and solving inverse problems on GANs.
-Quick links: [Your Local GAN paper](https://arxiv.org/abs/1911.12287), [spaCy IRL talk](https://www.youtube.com/watch?v=KwKr_e7xBQ4), [CV](https://drive.google.com/open?id=1lJ42UErRD11MrPMOMjjPxFdEAosyCf13).
-
-
-I have been successful student of Google Summer of Code 2018. Goal and outcome of my project [[1](http://www.nlpbuddy.io/gsoc), [2](https://github.com/eellak/gsoc2018-spacy)] was the integration of Greek Language to spaCy and the advancement of Greek NLP.
+I am starting a [blog](/blog)! I want to share:
+(i) annotated pre-prints of my own work, (ii) interesting open-problems, (iii) annotated versions of other people's papers.
