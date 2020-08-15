@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == "teaching" %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>{% if page.date %}, {{ page.date | date: "%Y" }} {% endif %}</p>
         {% elsif page.status %}
-          <p> {{ page.status }} {% if page.venue %} in {{ page.venue }} {% endif %} {% if page.date %} {{ page.date | default: "1900-01-01" | date: "%Y" }} {% endif %}</p>
+          <p> {{ page.status }} {% if page.venue %} in <strong> {{ page.venue }} </strong> {% endif %} {% if page.date %} {{ page.date | date: "%Y" }} {% endif %} {% if page.paperurl %} <a href="{{post.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if page.code %} <a href="{{page.code}}" target="_blank">[Code]</a>{% endif %} </p>
         {% endif %}
 
         {% if page.authors %}
