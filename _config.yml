@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Giannis Daras"
 title_separator          : "-"
 name                     : &name "Giannis Daras"
-description              : &description "Machine learning researcher, Computer Engineering Student, National Technical University of Athens"
+description              : &description "Ph.D. student, Computer Science, UT Austin"
 url                      : https://giannisdaras.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/giannisdaras.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Giannis Daras"
   avatar           : "avatar.jpg"
-  bio              : "Machine Learning Researcher, Computer Engineering Student, National Technical University of Athens"
+  bio              : "Ph.D. student, Computer Science, UT Austin"
   location         : "Athens, Greece"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?view_op=new_profile&hl=en"
