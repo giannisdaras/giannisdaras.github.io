@@ -34,8 +34,8 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>{% if page.date %}, {{ page.date date: "%Y" }} {% endif %}</p>
+        {% if page.collection == "teaching" %}
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>{% if page.date %}, {{ page.date | date: "%Y" }} {% endif %}</p>
         {% elsif page.status %}
           <p> {{ page.status }} {% if page.venue %} in {{ page.venue }} {% endif %} {% if page.date %} {{ page.date | default: "1900-01-01" | date: "%Y" }} {% endif %}</p>
         {% endif %}
