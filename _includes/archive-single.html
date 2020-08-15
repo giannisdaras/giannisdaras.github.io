@@ -44,7 +44,7 @@
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% elsif post.collection == 'publications' %}
-        <p> {{ post.status }} {% if post.venue %} in {{ post.venue }} {% endif %} {% if post.date %} {{ post.date | date: "%Y" }} {% endif %} {% if post.paperurl %} <a href="{{post.paperurl}}" target="_blank">Preprint</a>{% endif %}</p>
+        <p> {{ post.status }} {% if post.venue %} in <strong> {{ post.venue }} </strong> {% endif %} {% if post.date %} {{ post.date | date: "%Y" }} {% endif %} {% if post.paperurl %} <a href="{{post.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if post.code %} <a href="{{post.code}}" target="_blank">[Code]</a>{% endif %} </p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
@@ -63,11 +63,6 @@
       </p>
     {% endif %}
 
-    {% if post.status == 'Submitted' and post.paperurl %}
-    <p><a href=" {{ post.paperurl }} ">Available preprint</a></p>
-    {% elsif post.status == 'Published' and post.paperurl %}
-    <p><a href=" {{ post.paperurl }} ">Available print</a></p>
-    {% endif %}
 
   </article>
 </div>
