@@ -13,7 +13,8 @@ A full version of my CV is available [here](https://drive.google.com/open?id=1lJ
 
 Education
 ======
-* Computer Engineering, National Technical University of Athens (2015-2020)
+* Ph.D. Computer Science, UT Austin (2020-)
+* ECE, National Technical University of Athens (2015-2020)
 * Model Experimental Lyceum of Anavryta (2012-2015)
 
 
@@ -26,7 +27,7 @@ Publications
 
 Work experience
 ======
-* Explosion AI, Machine Learning Researcher (September 2018 -)
+* Explosion AI, Machine Learning Researcher (September 2018 - September 2019)
 
 * Google Summer of Code Student (April 2018 - August 2018)
 
