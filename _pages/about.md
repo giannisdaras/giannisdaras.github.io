@@ -17,6 +17,6 @@ and I successfully completed Google Summer of Code 2018.
 I am interested in the theory and the applications of Machine Learning.
 Recently, I have been publishing in attention networks and inverse problems for generative models.
 
-
+<!-- 
 I am starting a [blog](/blog)! I want to share:
-(i) annotated pre-prints of my own work, (ii) interesting open-problems, (iii) annotated versions of other people's papers.
+(i) annotated pre-prints of my own work, (ii) interesting open-problems, (iii) annotated versions of other people's papers. -->
