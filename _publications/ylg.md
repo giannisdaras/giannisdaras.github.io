@@ -1,5 +1,5 @@
 ---
-title: "Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models"
+title: "[CVPR 2020] Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models"
 collection: publications
 permalink: /publication/ylg
 excerpt: ''
