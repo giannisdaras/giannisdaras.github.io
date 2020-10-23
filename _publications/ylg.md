@@ -1,10 +1,9 @@
 ---
-title: "[CVPR 2020] Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models"
+title: "Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models"
 collection: publications
 permalink: /publication/ylg
 excerpt: ''
 status: 'Published'
-authors: 'Giannis Daras, Augustus Odena, Han Zhang, Alexandros Dimakis'
 venue: 'CVPR 2020'
 paperurl: 'https://arxiv.org/abs/1911.12287'
 code: 'https://github.com/giannisdaras/ylg'

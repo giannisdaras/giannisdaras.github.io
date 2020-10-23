@@ -1,10 +1,9 @@
 ---
-title: "[NeurIPS 2020] SMYRF: Efficient Attention using Asymmetric Clustering"
+title: "SMYRF: Efficient Attention using Asymmetric Clustering"
 collection: publications
 permalink: /publication/smyrf
 excerpt: ''
 status: 'Published'
-authors: 'Giannis Daras, Augustus Odena, Han Zhang, Alexandros Dimakis'
 venue: 'NeurIPS 2020'
 paperurl: 'https://arxiv.org/abs/2010.05315'
 code: 'https://github.com/giannisdaras/smyrf'
