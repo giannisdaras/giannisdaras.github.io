@@ -10,6 +10,7 @@ For the most updated version of my publications page, see my [Google Scholar pro
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% assign sorted = site.publications | reverse %}
+{% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
