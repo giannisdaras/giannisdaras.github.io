@@ -41,10 +41,10 @@
         {% if post.collection == 'teaching' %}
           <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
         {% if page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>.</p>
         {% endif %}
         {% elsif post.collection == 'publications' %}
-        <p> {{ post.status }} {% if post.venue %} in <strong> {{ post.venue }} </strong> {% endif %} {% if post.date %} {{ post.date | date: "%Y" }} {% endif %} {% if post.paperurl %} <a href="{{post.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if post.code %} <a href="{{post.code}}" target="_blank">[Code]</a>{% endif %} </p>
+        <p> {{ post.status }} {% if post.venue %} in <strong> {{ post.venue }} </strong> {% endif %} {% if post.paperurl %} <a href="{{post.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if post.code %} <a href="{{post.code}}" target="_blank">[Code]</a>{% endif %} </p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
@@ -55,11 +55,7 @@
 
     {% if post.authors %}
       <p>
-        {% if post.status == 'Published' %}
-        <u> Citation</u>: {{post.authors}}, "{{post.title}}", <i> {{post.venue}} </i> {{ post.date | date: "%Y" }}
-        {% else %}
-        <u> Authors</u>: {{post.authors}}
-        {% endif %}
+        <u> Citation</u>: {{post.authors}}, "{{post.title}}", <i> {{post.venue}} </i>
       </p>
     {% endif %}
 

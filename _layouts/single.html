@@ -37,13 +37,13 @@ layout: default
         {% if page.collection == "teaching" %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>{% if page.date %}, {{ page.date | date: "%Y" }} {% endif %}</p>
         {% elsif page.status %}
-          <p> {{ page.status }} {% if page.venue %} in <strong> {{ page.venue }} </strong> {% endif %} {% if page.date %} {{ page.date | date: "%Y" }} {% endif %} {% if page.paperurl %} <a href="{{page.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if page.code %} <a href="{{page.code}}" target="_blank">[Code]</a>{% endif %} </p>
+          <p> {{ page.status }} {% if page.venue %} in <strong> {{ page.venue }} </strong> {% endif %} {% if page.paperurl %} <a href="{{page.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if page.code %} <a href="{{page.code}}" target="_blank">[Code]</a>{% endif %} </p>
         {% endif %}
 
         {% if page.authors %}
             <p>
               {% if page.status == 'Published' %}
-              <u> Citation</u>: {{page.authors}}, "{{page.title}}", <i> {{page.venue}} </i> {{ page.date | date: "%Y" }}
+              <u> Citation</u>: {{page.authors}}, "{{page.title}}", <i> {{page.venue}} </i>
               {% else %}
               <u> Authors</u>: {{page.authors}}
               {% endif %}
