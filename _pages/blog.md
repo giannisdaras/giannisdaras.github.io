@@ -1,14 +1,11 @@
 ---
 layout: archive
 permalink: /blog/
-title: Blog
+title: "Blog posts"
+author_profile: true
 ---
 
-{% if site.articles.size == 0 %}
-Coming soon ...
-{% endif %}
-
-
-{% for post in site.articles reversed %}
+{% include base_path %}
+{% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
