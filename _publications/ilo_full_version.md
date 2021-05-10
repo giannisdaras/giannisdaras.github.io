@@ -3,8 +3,8 @@ title: "Intermediate Layer Optimization for Inverse Problems using Deep Generati
 collection: publications
 permalink: /publication/ilo
 excerpt: ''
-status: 'Preprint'
-venue: arXiv
+status: 'Published'
+venue: ICML 2021
 authors: '<strong> Giannis Daras </strong>, Joseph Dean, Ajil Jalal, Alexandros G. Dimakis'
 code: 'https://github.com/giannisdaras/ilo'
 paperurl: https://arxiv.org/abs/2102.07364

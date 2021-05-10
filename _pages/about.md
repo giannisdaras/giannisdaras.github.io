@@ -23,8 +23,10 @@ I am interested in improving many aspects of deep generative models that could b
 Application wise, I hope that my research on inverse problems with generative priors will prove useful to important real-world applications, e.g. MRI scans.
 
 ## News
+- Our paper, Intermediate Layer Optimization for Inverse Problems Using Deep Generative Models, has been acceepted to ICML 2021.
+- I am serving as a reviewer for NeurIPS 2021.
 - This summer, I will join Google Research for an internship on generative models!
-- I am reviewing 7 papers for ICML 2021.
+- I am serving as a reviewer for ICML 2021.
 
 
 ## Publications
