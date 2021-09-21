@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-A full version of my CV is available [here](https://drive.google.com/open?id=1lJ42UErRD11MrPMOMjjPxFdEAosyCf13).
+A full version of my CV is available [here](https://drive.google.com/file/d/1C12i0cmbvYbmy1w3mDiAPCpKmPwPS4N4/view?usp=sharing).
 
 
 Education
