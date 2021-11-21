@@ -3,8 +3,8 @@ title: "Robust Compressed Sensing MRI with Deep Generative Priors"
 collection: publications
 permalink: /publication/mri
 excerpt: ''
-status: 'Preprint'
-venue: arXiv
+status: 'Published'
+venue: 'NeurIPS 2021'
 authors: 'Ajil Jalal, Marius Arvinte, <strong> Giannis Daras </strong>, Eric Price, Alexandros G. Dimakis, Jonathan I. Tamir'
 code: 'https://github.com/utcsilab/csgm-mri-langevin'
 paperurl: https://arxiv.org/abs/2108.01368
