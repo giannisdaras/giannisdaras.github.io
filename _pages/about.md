@@ -23,11 +23,12 @@ Before joining the Ph.D., I received my undergraduate degree in ECE from the Nat
 During my undergraduate studies, I worked as a Machine Learning Researcher in ExplosionAI and I successfully completed Google Summer of Code 2018.
 
 ## News
-- \[New paper\]: [Solving Inverse Problems with NerfGANs](https://arxiv.org/abs/2112.09061)
-- \[Personal update\]: I joined Google as a Student Researcher working on NeRFs.
-- \[Paper update\]: Our paper, Robust Compressed Sensing MRI with Deep Generative Priors, has been accepted to NeurIPS 2021.
-- \[New paper\]: [Robust Compressed Sensing MRI with Deep Generative Priors](https://arxiv.org/abs/2108.01368)
-- \[Paper update\]: Intermediate Layer Optimization for Inverse Problems Using Deep Generative Models, has been acceepted to ICML 2021.
+- <span style="color:green">[Personal update]:</span> Starting January 2022, I will be working as a Student Researcher at Google with Peyman Milanfar, Mauricio Delbracio and Hossein Talebi.
+- <span style="color:red">[New paper]:</span> [Solving Inverse Problems with NerfGANs](https://arxiv.org/abs/2112.09061)
+- <span style="color:green">[Personal update]:</span> I joined Google as a Student Researcher working on NeRFs with Vincent Chu, Abhishek Kumar and Dmitry Lagun.
+- <span style="color:blue">[Paper update]: </span> Our paper, Robust Compressed Sensing MRI with Deep Generative Priors, has been accepted to NeurIPS 2021.
+- <span style="color:red">[New paper]:</span> [Robust Compressed Sensing MRI with Deep Generative Priors](https://arxiv.org/abs/2108.01368)
+- <span style="color:blue">[Paper update]: </span> Intermediate Layer Optimization for Inverse Problems Using Deep Generative Models, has been acceepted to ICML 2021.
 
 
 
