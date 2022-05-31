@@ -23,6 +23,8 @@ Before joining the Ph.D., I received my undergraduate degree in ECE from the Nat
 During my undergraduate studies, I worked as a Machine Learning Researcher in ExplosionAI and I successfully completed Google Summer of Code 2018.
 
 ## News
+- <span style="color:blue">[New paper]:</span> We discovered that DALLE-2 has a secret language. We wrote a paper summarizing our findings.
+Find the paper [here](https://giannisdaras.github.io/publications/Discovering_the_Secret_Language_of_Dalle.pdf).
 - <span style="color:blue">[New paper]:</span> Our paper, Score-Guided Intermediate Layer Optimization, got accepted to ICML 2022. Camera-ready version coming soon.
 - <span style="color:green">[Personal update]:</span> I am interning at Google Research for the summer. I am working with Peyman Milanfar, Mauricio Delbracio and Hossein Talebi.
 <!-- - <span style="color:red">[New paper]:</span> [Solving Inverse Problems with NerfGANs](https://arxiv.org/abs/2112.09061) -->
