@@ -55,7 +55,7 @@
 
     {% if post.authors %}
       <p>
-        <u> Citation</u>: {{post.authors}}, "{{post.title}}", <i> {{post.venue}} </i>
+        <u> Citation</u>: {{post.authors}}, "{{post.title}}" {% if post.venue %}, <i> {{post.venue}} </i> {% endif %}
       </p>
     {% endif %}
 
