@@ -3,7 +3,8 @@ title: "Multitasking Models are Robust to Structural Failure: A Neural Model for
 collection: publications
 permalink: /publication/bilingual_robustness
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: NeurIPS 2022
 authors: '<strong> Giannis Daras (*) </strong>, Negin Raoof (*), Zoi Gkalitsiou, Alexandros G. Dimakis'
 paperurl: /publications/bilingual_robustness.pdf
 date: 2022-06-19
