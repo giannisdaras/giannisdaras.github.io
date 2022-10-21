@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Computer Science Ph.D. student at UT Austin, supervised by Prof. [Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
+I am a third year Computer Science Ph.D. student at UT Austin, supervised by Prof. [Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
 
  
 
@@ -23,9 +23,11 @@ Before joining the Ph.D., I received my undergraduate degree in ECE from the Nat
 During my undergraduate studies, I worked as a Machine Learning Researcher in ExplosionAI and I successfully completed Google Summer of Code 2018.
 
 ## News
-- <span style="color:blue">[New paper]:</span> We discovered that DALLE-2 has a secret vocabulary. We wrote a paper summarizing our findings.
-Find the paper [here](https://arxiv.org/abs/2206.00169).
-- <span style="color:blue">[New paper]:</span> Our paper, [Score-Guided Intermediate Layer Optimization](https://arxiv.org/abs/2206.09104), got accepted to **ICML 2022**.
+- <span style="color:blue"> [New paper]:</span> [Soft Diffusion: Score Matching for General Corruptions](https://arxiv.org/abs/2209.05442).
+- <span style="color:green">[Paper acceptance]:</span> [Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve](https://giannisdaras.github.io/publications/bilingual_robustness.pdf), got accepted to **NeurIPS 2022**.
+<!-- - <span style="color:blue">[New paper]:</span> We discovered that DALLE-2 has a secret vocabulary. We wrote a paper summarizing our findings.
+Find the paper [here](https://arxiv.org/abs/2206.00169). -->
+- <span style="color:green">[Paper acceptance]:</span> Our paper, [Score-Guided Intermediate Layer Optimization](https://arxiv.org/abs/2206.09104), got accepted to **ICML 2022**.
 
 
 
