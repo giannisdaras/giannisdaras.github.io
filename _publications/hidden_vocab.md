@@ -3,7 +3,8 @@ title: "Discovering the Hidden Vocabulary of DALLE-2"
 collection: publications
 permalink: /publication/hidden_vocab
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: NeurIPS 2022 Workshop on Score-Based Methods
 authors: '<strong> Giannis Daras (*) </strong>, Alexandros G. Dimakis'
 paperurl: https://arxiv.org/abs/2206.00169
 date: 2022-06-01
@@ -45,7 +46,7 @@ For a more detailed discussion, see:
 * [Twitter thread](https://twitter.com/giannis_daras/status/1531693093040230402)
 * [Twitter thread: Responses to criticism](https://twitter.com/giannis_daras/status/1532605363232444416)
 
-Recommended videos/texts regaring this:
+Recommended videos/readings regarding this:
 
 * [Youtube video](https://www.youtube.com/watch?v=MNwURQ9621k)
 * [Hacker news thread](https://news.ycombinator.com/item?id=31573282)

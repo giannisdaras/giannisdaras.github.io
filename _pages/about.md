@@ -24,6 +24,7 @@ During my undergraduate studies, I worked as a Machine Learning Researcher in Ex
 
 ## News
 - <span style="color:blue"> [New paper]:</span> [Soft Diffusion: Score Matching for General Corruptions](https://arxiv.org/abs/2209.05442).
+- <span style="color:green"> [Paper acceptance]: </span> [Discovering the Hidden Vocabulary of DALLE-2](https://arxiv.org/abs/2206.00169) got accepted to the **NeurIPS 2022 Workshop on Score-Based Methods**.
 - <span style="color:green">[Paper acceptance]:</span> [Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve](https://arxiv.org/abs/2210.11618), got accepted to **NeurIPS 2022**.
 <!-- - <span style="color:blue">[New paper]:</span> We discovered that DALLE-2 has a secret vocabulary. We wrote a paper summarizing our findings.
 Find the paper [here](https://arxiv.org/abs/2206.00169). -->
