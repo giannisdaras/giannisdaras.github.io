@@ -8,6 +8,7 @@ venue: ICML 2022
 authors: '<strong> Giannis Daras (*) </strong>, Yuval Dagan (*), Alexandros G. Dimakis, Constantinos Daskalakis'
 paperurl: https://arxiv.org/abs/2206.09104
 date: 2022-08-04
+code: https://github.com/giannisdaras/sgilo
 ---
 
 
