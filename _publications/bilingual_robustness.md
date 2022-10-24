@@ -6,7 +6,7 @@ excerpt: ''
 status: 'Published'
 venue: NeurIPS 2022
 authors: '<strong> Giannis Daras (*) </strong>, Negin Raoof (*), Zoi Gkalitsiou, Alexandros G. Dimakis'
-paperurl: /publications/bilingual_robustness.pdf
+paperurl: https://arxiv.org/abs/2210.11618
 date: 2022-06-19
 ---
 Evidence from cognitive science indicates that bilingualism increases human brain robustness by reducing the rate of aging cognitive decline and delaying dementia. It appears that individuals who speak more than one language on a regular basis are able to maintain typical cognitive functioning despite neural degeneration. This robustness in cognitive functioning despite brain pathology is called cognitive reserve, and its underlying mechanisms are poorly understood.
