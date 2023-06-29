@@ -23,11 +23,13 @@ Before joining the Ph.D., I received my undergraduate degree in ECE from the Nat
 During my undergraduate studies, I worked as a Machine Learning Researcher in ExplosionAI and I successfully completed Google Summer of Code 2018.
 
 ## News
-- <span style="color:blue"> [New paper]:</span> [Soft Diffusion: Score Matching for General Corruptions](https://arxiv.org/abs/2209.05442).
+- <span style="color:blue"> [New Paper]: </span> [Ambient Diffusion: Learning Clean Distributions from Corrupted Data](https://arxiv.org/abs/2305.19256).
+- <span style="color:blue"> [New Paper]: </span> [Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent](https://arxiv.org/abs/2302.09057).
+- <span style="color:green"> [Paper acceptance]: </span> [Restoration-degradation beyond linear diffusions: A non-asymptotic analysis for DDIM-type samplers](https://arxiv.org/abs/2303.03384) got accepted to **ICML 2023**.
+- <span style="color:blue"> [New Paper]: </span> [DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108).
+- <span style="color:green"> [Paper acceptance]: </span> [Soft Diffusion: Score Matching for General Corruptions](https://arxiv.org/abs/2209.05442) got accepted to **TMLR**.
 - <span style="color:green"> [Paper acceptance]: </span> [Discovering the Hidden Vocabulary of DALLE-2](https://arxiv.org/abs/2206.00169) got accepted to the **NeurIPS 2022 Workshop on Score-Based Methods**.
 - <span style="color:green">[Paper acceptance]:</span> [Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve](https://arxiv.org/abs/2210.11618), got accepted to **NeurIPS 2022**.
-<!-- - <span style="color:blue">[New paper]:</span> We discovered that DALLE-2 has a secret vocabulary. We wrote a paper summarizing our findings.
-Find the paper [here](https://arxiv.org/abs/2206.00169). -->
 - <span style="color:green">[Paper acceptance]:</span> Our paper, [Score-Guided Intermediate Layer Optimization](https://arxiv.org/abs/2206.09104), got accepted to **ICML 2022**.
 
 
