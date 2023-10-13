@@ -3,7 +3,8 @@ title: "Ambient Diffusion: Learning Clean Distributions from Corrupted Data"
 collection: publications
 permalink: /publication/ambient
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: 'NeurIPS 2023'
 authors: '<strong> Giannis Daras</strong>, Kulin Shah, Yuval Dagan, Aravind Gollakota, Alexandros G. Dimakis, Adam Klivans'
 paperurl: https://arxiv.org/abs/2305.19256
 code: https://github.com/giannisdaras/ambient-diffusion
