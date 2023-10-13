@@ -3,9 +3,11 @@ title: "Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be
 collection: publications
 permalink: /publication/cdm
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: 'NeurIPS 2023'
 authors: '<strong> Giannis Daras</strong>, Yuval Dagan, Alexandros G. Dimakis, Constantinos Daskalakis'
 paperurl: https://arxiv.org/abs/2302.09057
+code: https://github.com/giannisdaras/cdm
 date: 2023-02-17
 ---
 

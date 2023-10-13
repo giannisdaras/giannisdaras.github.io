@@ -3,7 +3,8 @@ title: "Solving Linear Inverse Problems Provably via Posterior Sampling with Lat
 collection: publications
 permalink: /publication/psld
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: 'NeurIPS 2023'
 authors: 'Litu Rout, Negin Raoof, <strong> Giannis Daras</strong>, Constantine Caramanis, Alexandros G. Dimakis, Sanjay Shakkottai'
 paperurl: https://arxiv.org/abs/2307.00619
 code: https://github.com/LituRout/PSLD
