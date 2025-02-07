@@ -22,6 +22,7 @@ My research is on generative modeling. I am particularly interested in the probl
 
 ## News
 - <span style="color:green"> [Best Contribution Award]: </span> [Best Contribution Award](https://baspfrontiers.org/best-contribution-awards/) at the International Biomedical and Astronomical Signal Processing ([BASP](https://baspfrontiers.org/)) Frontiers Conference 2025.
+![](images/basp2025.jpg)
 - <span style="color:green"> [Paper Acceptance]: </span> [How Much is a Noisy Image Worth?](https://arxiv.org/abs/2411.02780) got accepted to **ICLR 2025**.
 - <span style="color:green"> [Paper Acceptance]: </span> [Ambient Diffusion Posterior Sampling](https://arxiv.org/abs/2403.08728) got accepted to **ICLR 2025**.
 - <span style="color:green"> [Paper Acceptance]: </span> [Infilling Score](https://openreview.net/forum?id=9QPH1YQCMn) got accepted to **ICLR 2025**.
