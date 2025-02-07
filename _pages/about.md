@@ -8,12 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year Computer Science Ph.D. student at UT Austin, supervised by Prof. [Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/). Before starting my Ph.D., I received my undergraduate degree in ECE from the National Technical University of Athens (NTUA).
+I am a post-doc at MIT CSAIL, working closely with [Prof. Costantinos Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
+
+Prior to that, I spent 4 wonderful years at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/). 
+
+Before starting my Ph.D., I received my undergraduate degree in ECE from the National Technical University of Athens (NTUA).
 
  
 
-
 My research is on generative modeling. I am particularly interested in the problem of learning generative models from corrupted data.
+
+
+
+## News
+- <span style="color:green"> [Best Contribution Award]: </span> [Best Contribution Award](https://baspfrontiers.org/best-contribution-awards/) at the International Biomedical and Astronomical Signal Processing ([BASP](https://baspfrontiers.org/)) Frontiers Conference 2025.
+- <span style="color:green"> [Paper Acceptance]: </span> [How Much is a Noisy Image Worth?](https://arxiv.org/abs/2411.02780) got accepted to **ICLR 2025**.
+- <span style="color:green"> [Paper Acceptance]: </span> [Ambient Diffusion Posterior Sampling](https://arxiv.org/abs/2403.08728) got accepted to **ICLR 2025**.
+- <span style="color:green"> [Paper Acceptance]: </span> [Infilling Score](https://openreview.net/forum?id=9QPH1YQCMn) got accepted to **ICLR 2025**.
+
 
 
 **Internships**:
@@ -23,20 +35,11 @@ My research is on generative modeling. I am particularly interested in the probl
 
 
 
-## News
-- <span style="color:green"> [Paper Acceptance]: </span> [Consistent Diffusion Meets Tweedie](https://arxiv.org/abs/2404.10177) got accepted to **ICML 2024**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Ambient Diffusion: Learning Clean Distributions from Corrupted Data](https://arxiv.org/abs/2305.19256) got accepted to **NeurIPS 2023**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent](https://arxiv.org/abs/2302.09057) got accepted to **NeurIPS 2023**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models
-](https://arxiv.org/abs/2307.00619) got accepted to **NeurIPS 2023**.
-- <span style="color:green"> [Paper Acceptance]: </span> [DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108) got accepted to **NeurIPS 2023 (Oral)**.
-- <span style="color:green"> [Paper acceptance]: </span> [Restoration-degradation beyond linear diffusions: A non-asymptotic analysis for DDIM-type samplers](https://arxiv.org/abs/2303.03384) got accepted to **ICML 2023**.
-
-
 
 
 
 ## Publications
+For a more comprehensive list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=LaScvbQAAAAJ&hl=en) page.
 {% include base_path %}
 
 {% assign sorted = site.publications | reverse %}
