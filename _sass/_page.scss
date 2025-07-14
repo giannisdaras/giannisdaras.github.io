@@ -400,3 +400,48 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+// Talks section styles
+.talks-section {
+  margin: 1.5em 0 1em 0;
+}
+.talks-title {
+  color: $primary-color;
+  font-size: $type-size-4;
+  font-family: $header-font-family;
+  font-weight: bold;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.7em;
+}
+.talk-entry {
+  border-left: 3px solid $primary-color;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  margin-bottom: 1em;
+  background: $body-color;
+  font-family: $global-font-family;
+}
+.talk-main {
+  color: $primary-color;
+  font-size: $type-size-5;
+  font-family: $header-font-family;
+  font-weight: bold;
+  margin-bottom: 0.05em;
+}
+.talk-sub {
+  font-size: $type-size-6;
+  color: $text-color;
+  margin-bottom: 0.05em;
+}
+.talk-desc {
+  font-style: italic;
+  color: $gray;
+  font-size: $type-size-6;
+  margin-bottom: 0.1em;
+}
+.talk-links a {
+  color: $info-color;
+  text-decoration: underline;
+  font-size: $type-size-6;
+  margin-right: 0.7em;
+}
