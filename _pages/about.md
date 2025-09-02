@@ -38,7 +38,7 @@ My research focuses on generative modeling, with a particular emphasis on learni
 
 ## Talks
 
-The most representative talk of my latest research is the one given at Columbia Engineering, as part of the Workshop on Emerging Trends in AI. Please watch the talk [here]([Workshop on Emerging Trends in AI](https://youtu.be/4HTuPx6wjJM?si=DVOShkwhiIIMJBON)).
+The most representative talk of my latest research is the one given at Columbia Engineering, as part of the Workshop on Emerging Trends in AI. Please watch the talk [here](https://youtu.be/4HTuPx6wjJM?si=DVOShkwhiIIMJBON).
 
 ![](images/columbia_photo.jpg)
 
