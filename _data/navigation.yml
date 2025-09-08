@@ -9,6 +9,12 @@ main:
   # - title: "Blog"
   #   url: /blog/
 
+  - title: "Teaching"
+    url: /#teaching
+  
+  - title: "Talks"
+    url: /#talks
+
   - title: "Resume"
     url: https://drive.google.com/file/d/1xyyDofOnWOoQBJ0mh1L4d7gkZZ0C1jtK/view?usp=sharing
 
