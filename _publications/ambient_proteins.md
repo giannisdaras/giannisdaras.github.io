@@ -3,7 +3,8 @@ title: "Ambient Proteins: \n Training Diffusion Models on Low Quality Structures
 collection: publications
 permalink: /publication/ambient_proteins
 excerpt: ''
-status: 'Preprint'
+status: 'Published as an <strong> Spotlight </strong>'
+venue: 'NeurIPS 2025'
 authors: 'Giannis Daras*, Jeffrey Ouyang-Zhang*, Krithika Ravishankar, William Daspit, Costis Daskalakis, Qiang Liu, Adam Klivans, Daniel J. Diaz'
 paperurl: 'https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1'
 code: 'https://github.com/jozhang97/ambient-proteins'

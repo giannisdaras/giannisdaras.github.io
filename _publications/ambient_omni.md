@@ -3,7 +3,8 @@ title: "Ambient Diffusion Omni: \n Training Good Models with Bad Data"
 collection: publications
 permalink: /publication/ambient_omni
 excerpt: ''
-status: 'Preprint'
+status: 'Published as an <strong> Spotlight </strong>'
+venue: 'NeurIPS 2025'
 authors: 'Giannis Daras*, Adrian Rodriguez-Munoz*, Adam Klivans, Antonio Torralba, Constantinos Daskalakis'
 paperurl: 'https://arxiv.org/abs/2506.10038'
 code: 'https://github.com/giannisdaras/ambient-omni'
