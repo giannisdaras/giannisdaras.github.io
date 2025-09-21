@@ -22,13 +22,11 @@ I work on practical and theoretical questions revolving around deep generative m
 
 
 ## News
-- <span style="color:green"> [Rising star in AI]: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
-- <span style="color:green"> [Best Contribution Award]: </span> [Best Contribution Award](https://baspfrontiers.org/best-contribution-awards/) at the International Biomedical and Astronomical Signal Processing ([BASP](https://baspfrontiers.org/)) Frontiers Conference 2025.
+- <span style="color:green"> Rising star in AI: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
+- <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Omni](https://arxiv.org/abs/2506.10038) got accepted as a **spotlight** to **NeurIPS 2025**.
+- <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Proteins](https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1) got accepted as a **spotlight** to **NeurIPS 2025**.
+- <span style="color:green"> Best Contribution Award: </span> [Best Contribution Award](https://baspfrontiers.org/best-contribution-awards/) at the International Biomedical and Astronomical Signal Processing ([BASP](https://baspfrontiers.org/)) Frontiers Conference 2025.
 <img src="images/basp2025.jpg" alt="BASP 2025" style="width:50%;">
-- <span style="color:green"> [Paper Acceptance]: </span> [How Much is a Noisy Image Worth?](https://arxiv.org/abs/2411.02780) got accepted to **ICLR 2025**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Ambient Diffusion Posterior Sampling](https://arxiv.org/abs/2403.08728) got accepted to **ICLR 2025**.
-- <span style="color:green"> [Paper Acceptance]: </span> [Infilling Score](https://openreview.net/forum?id=9QPH1YQCMn) got accepted to **ICLR 2025**.
-
 
 
 ## Internships
