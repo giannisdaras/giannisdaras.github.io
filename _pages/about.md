@@ -10,18 +10,19 @@ redirect_from:
 
 I am a post-doc at MIT CSAIL, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
 
-Prior to that, I spent 4 wonderful years at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/). 
+Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/). 
 
 I received my undergraduate degree in ECE from the National Technical University of Athens.
  
 I work on practical and theoretical questions revolving around deep generative models. A central thrust of my research is developing principled algorithms for **training** and **sampling generative models** in the presence of **data corruption**.
 
 
-<p><span style="color:#ff6666;">I am currently on the academic job market, looking for tenure-track faculty positions.</span></p>
+<p><span style="color:#0066cc; font-weight: bold;">I am currently on the academic job market, looking for tenure-track faculty positions.</span></p>
 **Email**:    <span style="font-family: monospace;">gdaras [at] mit [dot] edu</span>.
 
 
 ## News
+- <span style="color:green"> ICLR Workshop: </span> Our workshop [ReALM–GEN](https://realm-gen-workshop.github.io/) got accepted to **ICLR 2026**.
 - <span style="color:green"> Rising star in AI: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
 - <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Omni](https://arxiv.org/abs/2506.10038) got accepted as a **spotlight** to **NeurIPS 2025**.
 - <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Proteins](https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1) got accepted as a **spotlight** to **NeurIPS 2025**.
