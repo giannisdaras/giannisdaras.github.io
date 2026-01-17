@@ -50,6 +50,22 @@ The most representative talk of my latest research is the one given at Columbia 
 For a full list of the talks that I have given over the years, see below.
 <div class="talks-section">
   <div class="talk-entry">
+    <div class="talk-main">Imperial College London, Department of Computing </div>
+    <div class="talk-sub">2025</div>
+  </div>
+  <div class="talk-entry">
+    <div class="talk-main">Flatiron Institute </div>
+    <div class="talk-sub">2025</div>
+  </div>
+  <div class="talk-entry">
+    <div class="talk-main">Oral, NeurIPS Workshop on Structured Probabilistic Inference & Generative Modeling </div>
+    <div class="talk-sub">2025</div>
+  </div>
+  <div class="talk-entry">
+    <div class="talk-main">NYU Stern, Department of Technology, Operations and Statistics </div>
+    <div class="talk-sub">2025</div>
+  </div>
+  <div class="talk-entry">
     <div class="talk-main">MIT, ML Tea Seminar Talk</div>
     <div class="talk-sub">2025</div>
   </div>
@@ -63,10 +79,6 @@ For a full list of the talks that I have given over the years, see below.
   </div>
   <div class="talk-entry">
     <div class="talk-main">Runway ML</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Applied Inverse Problems Conference (AIP)</div>
     <div class="talk-sub">2025</div>
   </div>
   <div class="talk-entry">
@@ -94,11 +106,11 @@ For a full list of the talks that I have given over the years, see below.
     <div class="talk-sub">2025</div>
   </div>
   <div class="talk-entry">
-    <div class="talk-main">Harvard University</div>
+    <div class="talk-main">Harvard University, hosted by Sitan Chen</div>
     <div class="talk-sub">2024</div>
   </div>
   <div class="talk-entry">
-    <div class="talk-main">Google DeepMind, London Office</div>
+    <div class="talk-main">Google DeepMind, London Office, hosted by Valentin De Bortoli and Arnaud Doucet</div>
     <div class="talk-sub">2024</div>
   </div>
   <div class="talk-entry">
@@ -111,7 +123,7 @@ For a full list of the talks that I have given over the years, see below.
   </div>
   <div class="talk-entry">
     <div class="talk-main">
-      Learning on Graphs and Geometry (LoGG) Reading Group
+      Learning on Graphs and Geometry (LoGG) Reading Group, hosted by Hannes Stark
       <br>
       <a href="https://www.youtube.com/watch?v=iCDPewLVTro" target="_blank" rel="noopener">Youtube Video</a>
     </div>
