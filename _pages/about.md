@@ -21,6 +21,23 @@ I work on practical and theoretical questions revolving around deep generative m
 **Email**:    <span style="font-family: monospace;">gdaras [at] mit [dot] edu</span>.
 
 
+## Selected Publications
+
+- **[Ambient Diffusion Omni: Training Good Models with Bad Data]({{ site.baseurl }}/publication/ambient_omni)**  
+  Giannis Daras*, Adrian Rodriguez-Munoz*, Adam Klivans, Antonio Torralba, Constantinos Daskalakis  
+  Published as a **Spotlight** in **NeurIPS 2025**  
+  [Paper](https://arxiv.org/abs/2506.10038) | [Code](https://github.com/giannisdaras/ambient-omni)
+
+- **[Ambient Proteins: Training Diffusion Models on Low Quality Structures]({{ site.baseurl }}/publication/ambient_proteins)**  
+  Giannis Daras*, Jeffrey Ouyang-Zhang*, Krithika Ravishankar, William Daspit, Costis Daskalakis, Qiang Liu, Adam Klivans, Daniel J. Diaz  
+  Published as a **Spotlight** in **NeurIPS 2025**  
+  [Paper](https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1) | [Code](https://github.com/jozhang97/ambient-proteins)
+
+- **[Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data]({{ site.baseurl }}/publication/ambient-tweedie)**  
+  Giannis Daras, Alexandros G. Dimakis, Constantinos Daskalakis  
+  Published in **ICML 2024**  
+  [Paper](https://arxiv.org/abs/2404.10177) | [Code](https://github.com/giannisdaras/ambient-tweedie)
+
 ## News
 - <span style="color:green"> ICLR Workshop: </span> Our workshop [ReALM–GEN](https://realm-gen-workshop.github.io/) got accepted to **ICLR 2026**.
 - <span style="color:green"> Rising star in AI: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
