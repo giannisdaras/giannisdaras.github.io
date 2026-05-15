@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a post-doc at MIT CSAIL, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
+I am an (incoming) **Assistant Professor** at **MIT Sloan**.
 
-Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/). 
+I am a **Postdoctoral Associate** at **MIT CSAIL**, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
+
+Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
 
 I received my undergraduate degree in ECE from the National Technical University of Athens.
- 
+
 I work on practical and theoretical questions revolving around deep generative models. A central thrust of my research is developing principled algorithms for **training** and **sampling generative models** in the presence of **data corruption**.
 
-
-<p><span style="color:#0066cc; font-weight: bold;">I am currently on the academic job market, looking for tenure-track faculty positions.</span></p>
 **Email**:    <span style="font-family: monospace;">gdaras [at] mit [dot] edu</span>.
 
 
@@ -66,6 +66,14 @@ The most representative talk of my latest research is the one given at Columbia 
 
 For a full list of the talks that I have given over the years, see below.
 <div class="talks-section">
+  <div class="talk-entry">
+    <div class="talk-main">EPFL School of Computer and Communication Sciences</div>
+    <div class="talk-sub">2026</div>
+  </div>
+  <div class="talk-entry">
+    <div class="talk-main"><a href="https://ai.utexas.edu/events/2026-03-03/texas-symposium-machine-learning-responsible-ai-robotics" target="_blank" rel="noopener">Texas Symposium on Machine Learning, Responsible AI & Robotics</a></div>
+    <div class="talk-sub">2026</div>
+  </div>
   <div class="talk-entry">
     <div class="talk-main">Imperial College London, Department of Computing </div>
     <div class="talk-sub">2025</div>
