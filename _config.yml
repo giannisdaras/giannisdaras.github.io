@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Giannis Daras"
   avatar           : "avatar.jpeg"
-  bio              : "Post-doc, MIT CSAIL"
+  bio              : "Assistant Professor, MIT"
   location         : "Cambridge, MA"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=LaScvbQAAAAJ"
@@ -105,7 +105,7 @@ author:
   orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/6082275/gdaras"
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : "giannis_daras"
