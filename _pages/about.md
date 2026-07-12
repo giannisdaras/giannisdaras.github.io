@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an (incoming) **Assistant Professor** at **MIT Sloan**.
+I am an **Assistant Professor** at **MIT Sloan**.
 
-I am a **Postdoctoral Associate** at **MIT CSAIL**, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
+Before that, I was a **Postdoctoral Associate** at **MIT CSAIL**, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
 
 Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
 
