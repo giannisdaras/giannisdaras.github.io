@@ -39,6 +39,8 @@ I work on practical and theoretical questions revolving around deep generative m
   [Paper](https://arxiv.org/abs/2404.10177) | [Code](https://github.com/giannisdaras/ambient-tweedie)
 
 ## News
+- <span style="color:green"> MIT Faculty: </span> I joined **MIT** as faculty, as part of the **Operations Research and Statistics Group** at MIT Sloan.
+- <span style="color:green"> Best Paper Awards! 🏆 </span> [Ambient Diffusion Policy]({{ site.baseurl }}/publication/ambient_diffusion_policy) won two best paper awards at **RSS 2026** workshops: the **Best Paper Award** at the [Data-Centric Robotics](https://rss-workshop-2026.github.io/) workshop, and the **Most Useful Practical Information Award** at the ["It's the Demos"](https://its-the-demos.github.io/) workshop.
 - <span style="color:green"> ICLR Workshop: </span> Our workshop [ReALM–GEN](https://realm-gen-workshop.github.io/) got accepted to **ICLR 2026**.
 - <span style="color:green"> Rising star in AI: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
 - <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Omni](https://arxiv.org/abs/2506.10038) got accepted as a **spotlight** to **NeurIPS 2025**.
