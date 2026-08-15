@@ -45,6 +45,7 @@
         {% endif %}
         {% elsif post.collection == 'publications' %}
         <p> {{ post.status }} {% if post.venue %} in <strong> {{ post.venue }} </strong> {% endif %} {% if post.paperurl %} <a href="{{post.paperurl}}" target="_blank">[Paper]</a>{% endif %} {% if post.code %} <a href="{{post.code}}" target="_blank">[Code]</a>{% endif %} </p>
+        {% include award-badges.html awards=post.awards %}
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

@@ -1,0 +1,7 @@
+{% if include.awards %}
+<div style="background: linear-gradient(135deg, #fff8e1, #ffecb3); border-left: 4px solid #f5a623; border-radius: 8px; padding: 10px 16px; margin: 0 0 16px 0;">
+  {% for award in include.awards %}
+  <div{% unless forloop.last %} style="margin-bottom: 6px;"{% endunless %}>🏆 <strong>{{ award.text }}</strong> — {% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener">{{ award.venue }}</a>{% else %}{{ award.venue }}{% endif %}</div>
+  {% endfor %}
+</div>
+{% endif %}
