@@ -39,14 +39,33 @@ I work on practical and theoretical questions revolving around deep generative m
   [Paper](https://arxiv.org/abs/2404.10177) | [Code](https://github.com/giannisdaras/ambient-tweedie)
 
 ## News
-- <span style="color:green"> MIT Faculty: </span> I joined **MIT** as faculty, as part of the **Operations Research and Statistics Group** at MIT Sloan.
-- <span style="color:green"> Best Paper Awards! 🏆 </span> [Ambient Diffusion Policy]({{ site.baseurl }}/publication/ambient_diffusion_policy) won two best paper awards at **RSS 2026** workshops: the **Best Paper Award** at the [Data-Centric Robotics](https://rss-workshop-2026.github.io/) workshop, and the **Most Useful Practical Information Award** at the ["It's the Demos"](https://its-the-demos.github.io/) workshop.
-- <span style="color:green"> ICLR Workshop: </span> Our workshop [ReALM–GEN](https://realm-gen-workshop.github.io/) got accepted to **ICLR 2026**.
-- <span style="color:green"> Rising star in AI: </span> I was nominated a "**Rising Star** in AI" by the university of Michigan. I will be giving a talk at the [2025 Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/).
-- <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Omni](https://arxiv.org/abs/2506.10038) got accepted as a **spotlight** to **NeurIPS 2025**.
-- <span style="color:green"> NeurIPS Spotlight! </span> [Ambient Proteins](https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1) got accepted as a **spotlight** to **NeurIPS 2025**.
-- <span style="color:green"> Best Contribution Award: </span> [Best Contribution Award](https://baspfrontiers.org/best-contribution-awards/) at the International Biomedical and Astronomical Signal Processing ([BASP](https://baspfrontiers.org/)) Frontiers Conference 2025.
-<img src="images/basp2025.jpg" alt="BASP 2025" style="width:50%;">
+
+{% assign news_visible_count = 5 %}
+<ul class="news-list" id="news-list">
+{% for item in site.data.news %}
+  <li{% if forloop.index > news_visible_count %} class="news-hidden" style="display:none;"{% endif %}>
+    <span style="color:{{ item.color | default: 'green' }}"> {{ item.label }} </span> {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}
+    {% if item.image %}<br><img src="{{ item.image }}" alt="{{ item.image_alt }}" style="width:50%;">{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% assign news_hidden_count = site.data.news.size | minus: news_visible_count %}
+{% if news_hidden_count > 0 %}
+<div>
+<button id="news-toggle-btn" class="btn" onclick="toggleNews()" style="font-size: 0.8em; padding: 0.4em 0.9em;">Show {{ news_hidden_count }} more &#9660;</button>
+<script>
+function toggleNews() {
+  var hiddenItems = document.querySelectorAll('#news-list .news-hidden');
+  var btn = document.getElementById('news-toggle-btn');
+  var isHidden = hiddenItems.length > 0 && hiddenItems[0].style.display === 'none';
+  for (var i = 0; i < hiddenItems.length; i++) {
+    hiddenItems[i].style.display = isHidden ? 'list-item' : 'none';
+  }
+  btn.innerHTML = isHidden ? 'Show fewer &#9650;' : 'Show {{ news_hidden_count }} more &#9660;';
+}
+</script>
+</div>
+{% endif %}
 
 
 ## Internships

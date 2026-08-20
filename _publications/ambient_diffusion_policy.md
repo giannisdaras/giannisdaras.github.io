@@ -8,6 +8,7 @@ venue: 'RSS 2026 Workshops on Data-Centric Robotics and "It''s the Demos"'
 authors: 'Adam Wei, Nicholas Pfaff, Thomas Cohn, Arif Kerem Dayı, Constantinos Daskalakis, <strong>Giannis Daras</strong>, Russ Tedrake'
 paperurl: https://arxiv.org/abs/2606.12365
 website: https://ambient-diffusion-policy.github.io/
+link: https://ambient-diffusion-policy.github.io/
 date: 2026-06-10
 awards:
   - text: 'Best Paper Award'
