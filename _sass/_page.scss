@@ -445,3 +445,118 @@
   font-size: $type-size-6;
   margin-right: 0.7em;
 }
+
+// Lab / people section styles
+.people-grid {
+  margin: 1.2em 0 2em 0;
+}
+.person-card {
+  display: flex;
+  align-items: center;
+  gap: 1.1em;
+  border-left: 3px solid $primary-color;
+  padding: 0.7em 0.8em;
+  margin-bottom: 1em;
+  background: $body-color;
+  font-family: $global-font-family;
+}
+.person-photo {
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid $border-color;
+}
+.person-photo--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: mix(#fff, $primary-color, 78%);
+  color: mix(#000, $primary-color, 25%);
+  font-family: $header-font-family;
+  font-size: $type-size-3;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.person-info {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.person-name {
+  color: $primary-color;
+  font-size: $type-size-4;
+  font-family: $header-font-family;
+  font-weight: bold;
+  margin-bottom: 0.15em;
+}
+.person-role {
+  font-size: $type-size-6;
+  color: $text-color;
+  margin-bottom: 0.3em;
+}
+.person-desc {
+  font-size: $type-size-6;
+  color: $gray;
+  font-style: italic;
+}
+
+@include breakpoint(max-width $small) {
+  .person-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+// Recruiting note on the home page
+.recruiting-note {
+  margin: 1.5em 0 !important;
+  padding: 0.9em 1.1em;
+  background-color: mix(#fff, $info-color, 92%);
+  border-left: 4px solid $info-color;
+  border-radius: $border-radius;
+  color: $text-color;
+  text-indent: 0 !important;
+}
+
+// Compact people row (home page)
+.people-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.8em;
+  margin: 1.2em 0 2em 0;
+}
+.person-tile {
+  flex: 0 0 auto;
+  width: 130px;
+  text-align: center;
+  font-family: $global-font-family;
+
+  .person-photo {
+    /* rem, not em: the placeholder's font-size is larger, so an em margin
+       would resolve differently and misalign the names below */
+    margin: 0 auto 0.5rem auto;
+  }
+
+  img.person-photo {
+    display: block;
+  }
+}
+.person-tile-name {
+  font-family: $header-font-family;
+  font-size: $type-size-6;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.person-tile-role {
+  font-size: $type-size-6;
+  color: $gray;
+}
+
+// Section separator (home page)
+.section-rule {
+  margin: 2.2em 0 !important;
+  border-top: 1px solid $border-color;
+}

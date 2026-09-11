@@ -16,10 +16,35 @@ Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at U
 
 I received my undergraduate degree in ECE from the National Technical University of Athens.
 
-I work on practical and theoretical questions revolving around deep generative models. A central thrust of my research is developing principled algorithms for **training** and **sampling generative models** in the presence of **data corruption**.
+<hr class="section-rule">
+
+My group works on research questions related to **Generative AI**.<br>
+**Broad topics of interest:** learning from imperfect data, diffusion models, data-centric AI, inverse problems, AI4Science, and agents.
+
+<p class="recruiting-note">I am always looking for strong students. If you are interested in working with me, send me an email with your CV and what you would like to work on.</p>
 
 **Email**:    <span style="font-family: monospace;">gdaras [at] mit [dot] edu</span>.
 
+
+## Research Lab
+
+<div class="people-row">
+  <div class="person-tile">
+    <img class="person-photo" src="{{ site.baseurl }}/images/people/puneet-bagga.jpg" alt="Puneet Bagga">
+    <div class="person-tile-name"><a href="https://psbagga.com/" target="_blank" rel="noopener">Puneet Bagga</a></div>
+    <div class="person-tile-role">PhD Student</div>
+  </div>
+  <div class="person-tile">
+    <div class="person-photo person-photo--placeholder">YK</div>
+    <div class="person-tile-name">Yubin Kim</div>
+    <div class="person-tile-role">Masters Student</div>
+  </div>
+  <div class="person-tile">
+    <div class="person-photo person-photo--placeholder">DH</div>
+    <div class="person-tile-name"><a href="https://danialht.github.io/" target="_blank" rel="noopener">Danial Hosseintabar</a></div>
+    <div class="person-tile-role">UROP</div>
+  </div>
+</div>
 
 ## Selected Publications
 
