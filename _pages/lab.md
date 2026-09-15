@@ -40,7 +40,7 @@ I am always looking for strong students. If you are interested in working with m
 
 <div class="people-grid">
   <div class="person-card">
-    <div class="person-photo person-photo--placeholder">DH</div>
+    <img class="person-photo" src="{{ site.baseurl }}/images/people/danial-hosseintabar.jpg" alt="Danial Hosseintabar">
     <div class="person-info">
       <div class="person-name"><a href="https://danialht.github.io/" target="_blank" rel="noopener">Danial Hosseintabar</a></div>
       <div class="person-role">UROP &middot; MIT EECS + Mathematics</div>
