@@ -40,7 +40,7 @@ My group works on research questions related to **Generative AI**.<br>
     <div class="person-tile-role">Masters Student</div>
   </div>
   <div class="person-tile">
-    <div class="person-photo person-photo--placeholder">DH</div>
+    <img class="person-photo" src="{{ site.baseurl }}/images/people/danial-hosseintabar.jpg" alt="Danial Hosseintabar">
     <div class="person-tile-name"><a href="https://danialht.github.io/" target="_blank" rel="noopener">Danial Hosseintabar</a></div>
     <div class="person-tile-role">UROP</div>
   </div>
