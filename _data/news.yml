@@ -10,6 +10,12 @@
 #   image_alt  - alt text for the image
 
 - color: green
+  label: "Award Winner! 🏆"
+  text: >-
+    [An Image Worth a Thousand Paintings](/publication/thousand_paintings) was an
+    **Award Winner and Spotlight** at the **ECCV 2026 Art Gallery**.
+
+- color: green
   label: "MIT Faculty:"
   text: >-
     I joined **MIT** as faculty, as part of the **Operations Research and Statistics Group** at MIT Sloan.
