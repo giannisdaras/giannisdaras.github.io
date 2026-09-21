@@ -28,7 +28,7 @@ I am always looking for strong students. If you are interested in working with m
 
 <div class="people-grid">
   <div class="person-card">
-    <div class="person-photo person-photo--placeholder">YK</div>
+    <img class="person-photo" src="{{ site.baseurl }}/images/people/yubin-kim.jpg" alt="Yubin Kim">
     <div class="person-info">
       <div class="person-name">Yubin Kim</div>
       <div class="person-role">Masters Student, Operations Research Center &middot; since 2026</div>
