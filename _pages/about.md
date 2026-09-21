@@ -35,7 +35,7 @@ My group works on research questions related to **Generative AI**.<br>
     <div class="person-tile-role">PhD Student</div>
   </div>
   <div class="person-tile">
-    <div class="person-photo person-photo--placeholder">YK</div>
+    <img class="person-photo" src="{{ site.baseurl }}/images/people/yubin-kim.jpg" alt="Yubin Kim">
     <div class="person-tile-name">Yubin Kim</div>
     <div class="person-tile-role">Masters Student</div>
   </div>
