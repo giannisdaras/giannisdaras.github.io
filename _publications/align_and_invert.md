@@ -3,7 +3,8 @@ title: "Align & Invert: Solving Inverse Problems with Diffusion and Flow-based M
 collection: publications
 permalink: /publication/align_and_invert
 excerpt: ''
-status: 'Preprint'
+status: 'Published'
+venue: 'NeurIPS 2026'
 authors: 'Loukas Sfountouris, <strong>Giannis Daras</strong>, Paris Giampouras'
 paperurl: https://arxiv.org/abs/2511.16870
 code: https://github.com/Sfountouris/Align_And_Invert
