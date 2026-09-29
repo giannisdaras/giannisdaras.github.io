@@ -10,6 +10,11 @@
 #   image_alt  - alt text for the image
 
 - color: green
+  label: "NeurIPS 2026:"
+  text: >-
+    [Align & Invert](/publication/align_and_invert) got accepted to **NeurIPS 2026**.
+
+- color: green
   label: "Award Winner! 🏆"
   text: >-
     [An Image Worth a Thousand Paintings](/publication/thousand_paintings) was an
