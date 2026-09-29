@@ -6,6 +6,7 @@ excerpt: ''
 status: 'Published'
 venue: 'EC 2026'
 authors: 'Lillian Sun, Henry Huang, Fucheng Warren Zhu, <strong>Giannis Daras</strong>, Constantinos Daskalakis'
+paperurl: https://people.csail.mit.edu/costis/diffusion_auctions_arxiv.pdf
 date: 2026-05-18
 ---
 
