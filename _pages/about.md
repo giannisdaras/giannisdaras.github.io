@@ -36,7 +36,7 @@ My group works on research questions related to **Generative AI**.<br>
   </div>
   <div class="person-tile">
     <img class="person-photo" src="{{ site.baseurl }}/images/people/yubin-kim.jpg" alt="Yubin Kim">
-    <div class="person-tile-name">Yubin Kim</div>
+    <div class="person-tile-name"><a href="https://yubinkim04.github.io/" target="_blank" rel="noopener">Yubin Kim</a></div>
     <div class="person-tile-role">Masters Student</div>
   </div>
   <div class="person-tile">
