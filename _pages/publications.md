@@ -1,16 +1,20 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Reverse-chronological. See also my <a href='https://scholar.google.com/citations?user=LaScvbQAAAAJ&hl=en'>Google Scholar</a>.
+nav: true
+nav_order: 2
 ---
 
-For the most updated version of my publications page, see my [Google Scholar profile](https://scholar.google.com/citations?user=LaScvbQAAAAJ&hl=en).
+<!-- _pages/publications.md -->
 
+<!-- Bibsearch Feature -->
 
-{% include base_path %}
+{% include bib_search.liquid %}
 
-{% assign sorted = site.publications | reverse %}
-{% for post in sorted %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publications">
+
+{% bibliography %}
+
+</div>

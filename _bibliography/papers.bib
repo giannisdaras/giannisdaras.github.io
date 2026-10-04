@@ -1,0 +1,341 @@
+---
+---
+
+@inproceedings{thousand_paintings,
+  title       = {An Image Worth a Thousand Paintings},
+  author      = {George Cazenavette and Angelina Quan and Giannis Daras and Antonio Torralba and Vincent Sitzmann},
+  booktitle   = {ECCV 2026 Art Gallery},
+  year        = {2026},
+  abbr        = {ECCV},
+  html        = {https://georgecazenavette.github.io/drifting-distillation-art/},
+  award       = {**Award Winner and Spotlight** — Art Gallery, ECCV 2026},
+  award_name  = {Award Winner and Spotlight},
+  abstract    = {Dataset distillation synthesizes a small set of images that best approximate a real data distribution. We introduce a "drifting" method, building on the generative framework of Deng et al., that distills an artist's entire body of work into a single image.},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{ambient_diffusion_policy,
+  title       = {Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics},
+  author      = {Adam Wei and Nicholas Pfaff and Thomas Cohn and Arif Kerem Dayı and Constantinos Daskalakis and Giannis Daras and Russ Tedrake},
+  booktitle   = {RSS 2026 Workshops on Data-Centric Robotics and "It's the Demos"},
+  year        = {2026},
+  abbr        = {RSS},
+  arxiv       = {2606.12365},
+  html        = {https://ambient-diffusion-policy.github.io/},
+  award       = {**Best Paper Award** — Data-Centric Robotics Workshop, RSS 2026},
+  award_name  = {Best Paper Award},
+  abstract    = {We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics. High-quality, task-specific robot data is expensive and time-consuming to collect, while suboptimal datasets with lower-quality or out-of-distribution demonstrations are abundant. Existing methods that co-train on both data sources in robotics often fail to separate the meaningful and the harmful features in the suboptimal samples. In contrast, our method extracts only the useful features by introducing a new axis to co-training in robotics: noise-dependent data usage. Ambient Diffusion Policy restricts the contribution of suboptimal data during training to only the high and low diffusion times. To rigorously justify our approach, we first observe that robot action data exhibits a spectral power law. This induces two important properties on the optimal Diffusion Policy that we exploit: a global-to-local hierarchy and locality. We theoretically formalize this discussion using a simplified model. Our experiments validate Ambient Diffusion Policy on four types of suboptimal action data (noisy trajectories, sim-to-real gap, task mismatch, and large-scale data mixtures) across six tasks. The results show that it effectively learns from arbitrary sources of suboptimal data. Notably, it outperforms existing co-training baselines by up to 33% when scaled to Open X-Embodiment - a large dataset with heterogeneous data quality and unstructured distribution shifts. Overall, Ambient Diffusion Policy increases the utility of suboptimal demonstrations and expands the set of usable data sources in robotics.},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{diffusion_auctions_banner_ads,
+  title       = {Diffusion Based Auctions for Banner Ads},
+  author      = {Lillian Sun and Henry Huang and Fucheng Warren Zhu and Giannis Daras and Constantinos Daskalakis},
+  booktitle   = {EC 2026},
+  year        = {2026},
+  abbr        = {EC},
+  pdf         = {https://people.csail.mit.edu/costis/diffusion_auctions_arxiv.pdf},
+  abstract    = {We propose auctions that fractionally allocate the creation of a banner to bidders according to their preferences. The mechanism elicits bids and textual prompts from advertisers, and composes them into a score function that drives a reverse diffusion process that generates the banner. It implements Monte Carlo sampling to calculate approximate VCG-based payments to incentivize high-welfare images. Extensive experiments on a diverse 20-prompt dataset with up to 3 agents demonstrate key economic properties: bid monotonicity, an efficiency improvement of up to 21% higher welfare than a single-winner VCG baseline, and approximate incentive compatibility, with average regret below 10% when deviating from truthful bidding, while preserving high image quality.},
+  bibtex_show = {true}
+}
+
+@misc{ambient_physics,
+  title       = {Ambient Physics: Training Neural PDE Solvers with Partial Observations},
+  author      = {Harris Abdul Majid and Giannis Daras and Francesco Tudisco and Steven McDonagh},
+  year        = {2026},
+  arxiv       = {2602.13873},
+  abstract    = {In many scientific settings, acquiring complete observations of PDE coefficients and solutions can be expensive, hazardous, or impossible. Recent diffusion-based methods can reconstruct fields given partial observations, but require complete observations for training. We introduce Ambient Physics, a framework for learning the joint distribution of coefficient-solution pairs directly from partial observations, without requiring a single complete observation. The key idea is to randomly mask a subset of already-observed measurements and supervise on them, so the model cannot distinguish "truly unobserved" from "artificially unobserved", and must produce plausible predictions everywhere. Ambient Physics achieves state-of-the-art reconstruction performance. Compared with prior diffusion-based methods, it achieves a 62.51% reduction in average overall error while using 125× fewer function evaluations. We also identify a "one-point transition": masking a single already-observed point enables learning from partial observations across architectures and measurement patterns. Ambient Physics thus enables scientific progress in settings where complete observations are unavailable.},
+  bibtex_show = {true}
+}
+
+@inproceedings{ambient_dataloops,
+  title       = {Ambient Dataloops: Generative Models for Dataset Refinement},
+  author      = {Adrián Rodríguez-Muñoz and William Daspit and Adam Klivans and Antonio Torralba and Constantinos Daskalakis and Giannis Daras},
+  booktitle   = {ICML 2026},
+  year        = {2026},
+  abbr        = {ICML},
+  arxiv       = {2601.15417},
+  abstract    = {We propose Ambient Dataloops, an iterative framework for refining datasets that makes it easier for diffusion models to learn the underlying data distribution. Modern datasets contain samples of highly varying quality, and training directly on such heterogeneous data often yields suboptimal models. We propose a dataset-model co-evolution process; at each iteration of our method, the dataset becomes progressively higher quality, and the model improves accordingly. To avoid destructive self-consuming loops, at each generation, we treat the synthetically improved samples as noisy, but at a slightly lower noisy level than the previous iteration, and we use Ambient Diffusion techniques for learning under corruption. Empirically, Ambient Dataloops achieve state-of-the-art performance in unconditional and text-conditional image generation and de novo protein design. We further provide a theoretical justification for the proposed framework that captures the benefits of the data looping procedure.},
+  bibtex_show = {true}
+}
+
+@misc{diff_em,
+  title       = {DiffEM: Learning from Corrupted Data with Diffusion Models via Expectation Maximization},
+  author      = {Danial Hosseintabar and Fan Chen and Giannis Daras and Antonio Torralba and Constantinos Daskalakis},
+  year        = {2026},
+  arxiv       = {2510.12691},
+  code        = {https://github.com/danialht/DiffEM},
+  abstract    = {Diffusion models have emerged as powerful generative priors for high-dimensional inverse problems, yet learning them when only corrupted or noisy observations are available remains challenging. In this work, we propose a new method for training diffusion models with Expectation-Maximization (EM) from corrupted data. Our proposed method, DiffEM, utilizes conditional diffusion models to reconstruct clean data from observations in the E-step, and then uses the reconstructed data to refine the conditional diffusion model in the M-step. Theoretically, we provide monotonic convergence guarantees for the DiffEM iteration, assuming appropriate statistical conditions. We demonstrate the effectiveness of our approach through experiments on various image reconstruction tasks},
+  bibtex_show = {true}
+}
+
+@inproceedings{align_and_invert,
+  title       = {Align \& Invert: Solving Inverse Problems with Diffusion and Flow-based Models via Representation Alignment},
+  author      = {Loukas Sfountouris and Giannis Daras and Paris Giampouras},
+  booktitle   = {NeurIPS 2026},
+  year        = {2025},
+  abbr        = {NeurIPS},
+  arxiv       = {2511.16870},
+  code        = {https://github.com/Sfountouris/Align_And_Invert},
+  abstract    = {Enforcing alignment between the internal representations of diffusion or flow-based generative models and those of pretrained self-supervised encoders has recently been shown to provide a powerful inductive bias, improving both convergence and sample quality. In this work, we extend this idea to inverse problems, where pretrained generative models are employed as priors. We propose applying representation alignment (REPA) between diffusion or flow-based models and a DINOv2 visual encoder, to guide the reconstruction process at inference time. Although ground-truth signals are unavailable in inverse problems, we empirically show that aligning model representations of approximate target features can substantially enhance reconstruction quality and perceptual realism. We provide theoretical results showing (a) that REPA regularization can be viewed as a variational approach for minimizing a divergence measure in the DINOv2 embedding space, and (b) how under certain regularity assumptions REPA updates steer the latent diffusion states toward those of the clean image. These results offer insights into the role of REPA in improving perceptual fidelity. We integrate REPA into multiple state-of-the-art inverse problem solvers, and provide extensive experiments on super-resolution, box inpainting, Gaussian deblurring, and motion deblurring confirming that our method consistently improves reconstruction quality, while also providing efficiency gains reducing the number of required discretization steps.},
+  bibtex_show = {true}
+}
+
+@inproceedings{ambient_proteins,
+  title       = {Ambient Proteins: 
+ Training Diffusion Models on Low Quality Structures},
+  author      = {Giannis Daras* and Jeffrey Ouyang-Zhang* and Krithika Ravishankar and William Daspit and Costis Daskalakis and Qiang Liu and Adam Klivans and Daniel J. Diaz},
+  booktitle   = {NeurIPS 2025},
+  year        = {2025},
+  abbr        = {NeurIPS},
+  pdf         = {https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1},
+  code        = {https://github.com/jozhang97/ambient-proteins},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{ambient_omni,
+  title       = {Ambient Diffusion Omni: 
+ Training Good Models with Bad Data},
+  author      = {Giannis Daras* and Adrian Rodriguez-Munoz* and Adam Klivans and Antonio Torralba and Constantinos Daskalakis},
+  booktitle   = {NeurIPS 2025},
+  year        = {2025},
+  abbr        = {NeurIPS},
+  arxiv       = {2506.10038},
+  code        = {https://github.com/giannisdaras/ambient-omni},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{image_worth,
+  title       = {How much is a noisy image worth? Data Scaling Laws for Ambient Diffusion},
+  author      = {Giannis Daras and Yeshwanth Cherapanamjeri and Constantinos Daskalakis},
+  booktitle   = {ICLR 2025},
+  year        = {2024},
+  abbr        = {ICLR},
+  arxiv       = {2411.02780},
+  code        = {https://github.com/giannisdaras/ambient-laws},
+  bibtex_show = {true}
+}
+
+@inproceedings{opt_in_art,
+  title       = {Opt-In Art: Learning Art Styles Only from Few Examples},
+  author      = {Hui Ren* and Joanna Materzynska* and Rohit Gandikota and Giannis Daras and David Bau and Antonio Torralba},
+  booktitle   = {NeurIPS 2025 Creative AI Track},
+  year        = {2024},
+  abbr        = {NeurIPS},
+  pdf         = {https://openreview.net/forum?id=pHKEHWu1Yr},
+  html        = {https://joaanna.github.io/art-free-diffusion/},
+  code        = {https://github.com/rhfeiyang/art-free-diffusion},
+  abstract    = {We explore whether pre-training on datasets with paintings is necessary for a model to learn an artistic style with only a few examples. To investigate this, we train a text-to-image model exclusively on photographs, without access to any painting-related content. We show that it is possible to adapt a model that is trained without paintings to an artistic style, given only few examples. User studies and automatic evaluations confirm that our model (post-adaptation) performs on par with state-of-the-art models trained on massive datasets that contain artistic content like paintings, drawings or illustrations. Finally, using data attribution techniques, we analyze how both artistic and non-artistic datasets contribute to generating artistic-style images. Surprisingly, our findings suggest that high-quality artistic outputs can be achieved without prior exposure to artistic data, indicating that artistic style generation can occur in a controlled, opt-in manner using only a limited, carefully selected set of training examples.},
+  bibtex_show = {true}
+}
+
+@inproceedings{infill_score,
+  title       = {Infilling Score: A Pretraining Data Detection Algorithm for Large Language Models},
+  author      = {Negin Raoof and Litu Rout and Giannis Daras and Sujay Sanghavi and Constantine Caramanis and Sanjay Shakkottai and Alexandros G. Dimakis},
+  booktitle   = {ICLR 2025},
+  year        = {2024},
+  abbr        = {ICLR},
+  pdf         = {https://openreview.net/forum?id=9QPH1YQCMn},
+  abstract    = {In pretraining data detection, the goal is to detect whether a given sentence is in the dataset used for training a Large Language Model LLM). Recent methods (such as Min-K % and Min-K%++) reveal that most training corpora are likely contaminated with both sensitive content and evaluation benchmarks, leading to inflated test set performance. These methods sometimes fail to detect samples from the pretraining data, primarily because they depend on statistics composed of causal token likelihoods. We introduce Infilling Score, a new test-statistic based on non-causal token likelihoods. Infilling Score can be computed for autoregressive models without re-training using Bayes rule. A naive application of Bayes rule scales linearly with the vocabulary size. However, we propose a ratio test-statistic whose computation is invariant to vocabulary size. Empirically, our method achieves a significant accuracy gain over state-of-the-art methods including Min-K%, and Min-K%++ on the WikiMIA benchmark across seven models with different parameter sizes. Further, we achieve higher AUC compared to reference-free methods on the challenging MIMIR benchmark. Finally, we create a benchmark dataset consisting of recent data sources published after the release of Llama-3; this benchmark provides a statistical baseline to indicate potential corpora used for Llama-3 training.},
+  bibtex_show = {true}
+}
+
+@inproceedings{ambient_dps,
+  title       = {Ambient Diffusion Posterior Sampling: Solving Inverse Problems with Diffusion Models trained on Corrupted Data},
+  author      = {Asad Aali and Giannis Daras and Brett Levac and Sidharth Kumar and Alexandros G. Dimakis and Jonathan I. Tamir'},
+  booktitle   = {ICLR 2025},
+  year        = {2024},
+  abbr        = {ICLR},
+  arxiv       = {2403.08728},
+  code        = {https://github.com/utcsilab/ambient-diffusion-mri},
+  bibtex_show = {true}
+}
+
+@inproceedings{dclm,
+  title       = {DataComp-LM: In search of the next generation of training sets for language models},
+  author      = {Jeffrey Li and Alex Fang and Georgios Smyrnis and Maor Ivgi and Matt Jordan and Samir Gadre and Hritik Bansal and Etash Guha and Sedrick Keh and Kushal Arora and Saurabh Garg and Rui Xin and Niklas Muennighoff and Reinhard Heckel and Jean Mercat and Mayee Chen and Suchin Gururangan and Mitchell Wortsman and Alon Albalak and Yonatan Bitton and Marianna Nezhurina and Amro Abbas and Cheng-Yu Hsieh and Dhruba Ghosh and Josh Gardner and Maciej Kilian and Hanlin Zhang and Rulin Shao and Sarah Pratt and Sunny Sanyal and Gabriel Ilharco and Giannis Daras and Kalyani Marathe and Aaron Gokaslan and Jieyu Zhang and Khyathi Chandu and Thao Nguyen and Igor Vasiljevic and Sham Kakade and Shuran Song and Sujay Sanghavi and Fartash Faghri and Sewoong Oh and Luke Zettlemoyer and Kyle Lo and Alaaeldin El-Nouby and Hadi Pouransari and Alexander Toshev and Stephanie Wang and Dirk Groeneveld and Luca Soldaini and Pang Wei Koh and Jenia Jitsev and Thomas Kollar and Alexandros G. Dimakis and Yair Carmon and Achal Dave and Ludwig Schmidt and Vaishaal Shankar},
+  booktitle   = {NeurIPS 2024 Track Datasets and Benchmarks},
+  year        = {2024},
+  abbr        = {NeurIPS},
+  arxiv       = {2406.11794},
+  html        = {https://www.datacomp.ai/dclm/},
+  code        = {https://github.com/mlfoundations/dclm},
+  bibtex_show = {true}
+}
+
+@inproceedings{ambient_tweedie,
+  title       = {Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data},
+  author      = {Giannis Daras and Alexandros G. Dimakis and Constantinos Daskalakis},
+  booktitle   = {ICML 2024},
+  year        = {2024},
+  abbr        = {ICML},
+  arxiv       = {2404.10177},
+  code        = {https://github.com/giannisdaras/ambient-tweedie},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{psld,
+  title       = {Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models},
+  author      = {Litu Rout and Negin Raoof and Giannis Daras and Constantine Caramanis and Alexandros G. Dimakis and Sanjay Shakkottai},
+  booktitle   = {NeurIPS 2023},
+  year        = {2023},
+  abbr        = {NeurIPS},
+  arxiv       = {2307.00619},
+  code        = {https://github.com/LituRout/PSLD},
+  bibtex_show = {true}
+}
+
+@inproceedings{ambient,
+  title       = {Ambient Diffusion: Learning Clean Distributions from Corrupted Data},
+  author      = {Giannis Daras and Kulin Shah and Yuval Dagan and Aravind Gollakota and Alexandros G. Dimakis and Adam Klivans},
+  booktitle   = {NeurIPS 2023},
+  year        = {2023},
+  abbr        = {NeurIPS},
+  arxiv       = {2305.19256},
+  code        = {https://github.com/giannisdaras/ambient-diffusion},
+  bibtex_show = {true}
+}
+
+@inproceedings{datacomp,
+  title       = {DataComp: In search of the next generation of multimodal datasets},
+  author      = {Samir Yitzhak Gadre and Gabriel Ilharco and Alex Fang and Jonathan Hayase and Georgios Smyrnis and Thao Nguyen and Ryan Marten and Mitchell Wortsman and Dhruba Ghosh and Jieyu Zhang and Eyal Orgad and Rahim Entezari and Giannis Daras and Sarah Pratt and Vivek Ramanujan and Yonatan Bitton and Kalyani Marathe and Stephen Mussmann and Richard Vencu and Mehdi Cherti and Ranjay Krishna and Pang Wei Koh and Olga Saukh and Alexander Ratner and Shuran Song and Hannaneh Hajishirzi and Ali Farhadi and Romain Beaumont and Sewoong Oh and Alex Dimakis and Jenia Jitsev and Yair Carmon and Vaishaal Shankar and Ludwig Schmidt},
+  booktitle   = {NeurIPS 2023},
+  year        = {2023},
+  abbr        = {NeurIPS},
+  arxiv       = {2304.14108},
+  html        = {https://www.datacomp.ai/},
+  code        = {https://github.com/mlfoundations/datacomp},
+  bibtex_show = {true}
+}
+
+@inproceedings{restoration_degradation,
+  title       = {Restoration-Degradation Beyond Linear Diffusions: A Non-Asymptotic Analysis for DDIM-Type Samplers},
+  author      = {Sitan Chen and Giannis Daras and Alexandros G. Dimakis},
+  booktitle   = {ICML 2023},
+  year        = {2023},
+  abbr        = {ICML},
+  arxiv       = {2303.03384},
+  bibtex_show = {true}
+}
+
+@inproceedings{cdm,
+  title       = {Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent},
+  author      = {Giannis Daras and Yuval Dagan and Alexandros G. Dimakis and Constantinos Daskalakis},
+  booktitle   = {NeurIPS 2023},
+  year        = {2023},
+  abbr        = {NeurIPS},
+  arxiv       = {2302.09057},
+  code        = {https://github.com/giannisdaras/cdm},
+  bibtex_show = {true}
+}
+
+@inproceedings{multires_textual_inversion,
+  title       = {Multiresolution Textual Inversion},
+  author      = {Giannis Daras and Alexandros G. Dimakis},
+  booktitle   = {NeurIPS 2022, SBM Workshop},
+  year        = {2022},
+  abbr        = {NeurIPS},
+  arxiv       = {2211.17115},
+  code        = {https://github.com/giannisdaras/multires_textual_inversion},
+  bibtex_show = {true}
+}
+
+@article{soft_diffusion,
+  title       = {Soft Diffusion: Score Matching for General Corruptions},
+  author      = {Giannis Daras and Mauricio Delbracio and Hossein Talebi and Alexandros G. Dimakis and Peyman Milanfar},
+  journal     = {TMLR 2023},
+  year        = {2022},
+  abbr        = {TMLR},
+  arxiv       = {2209.05442},
+  bibtex_show = {true}
+}
+
+@inproceedings{sgilo,
+  title       = {Score-Guided Intermediate Layer Optimization: Fast Langevin Mixing for Inverse Problems},
+  author      = {Giannis Daras* and Yuval Dagan* and Alexandros G. Dimakis and Constantinos Daskalakis},
+  booktitle   = {ICML 2022},
+  year        = {2022},
+  abbr        = {ICML},
+  arxiv       = {2206.09104},
+  code        = {https://github.com/giannisdaras/sgilo},
+  abstract    = {We prove fast mixing and characterize the stationary distribution of the Langevin Algorithm for inverting random weighted DNN generators. This result extends the work of Hand and Voroninski from efficient inversion to efficient posterior sampling. In practice, to allow for increased expressivity, we propose to do posterior sampling in the latent space of a pre-trained generative model. To achieve that, we train a score-based model in the latent space of a StyleGAN-2 and we use it to solve inverse problems. Our framework, Score-Guided Intermediate Layer Optimization (SGILO), extends prior work by replacing the sparsity regularization with a generative prior in the intermediate layer. Experimentally, we obtain significant improvements over the previous state-of-the-art, especially in the low measurement regime.},
+  bibtex_show = {true}
+}
+
+@inproceedings{bilingual_robustness,
+  title       = {Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve},
+  author      = {Giannis Daras* and Negin Raoof* and Zoi Gkalitsiou and Alexandros G. Dimakis},
+  booktitle   = {NeurIPS 2022},
+  year        = {2022},
+  abbr        = {NeurIPS},
+  arxiv       = {2210.11618},
+  code        = {https://github.com/giannisdaras/multilingual_robustness},
+  bibtex_show = {true}
+}
+
+@inproceedings{hidden_vocab,
+  title       = {Discovering the Hidden Vocabulary of DALLE-2},
+  author      = {Giannis Daras* and Alexandros G. Dimakis},
+  booktitle   = {NeurIPS 2022 Workshop on Score-Based Methods},
+  year        = {2022},
+  abbr        = {NeurIPS},
+  arxiv       = {2206.00169},
+  bibtex_show = {true}
+}
+
+@misc{inv_nerfgans,
+  title       = {Solving Inverse Problems with NerfGANs},
+  author      = {Giannis Daras and Wen-Sheng Chu and Abhishek Kumar and Dmitry Lagun and Alexandros G. Dimakis},
+  year        = {2021},
+  arxiv       = {2112.090618},
+  bibtex_show = {true}
+}
+
+@inproceedings{ilo_full_version,
+  title       = {Intermediate Layer Optimization for Inverse Problems using Deep Generative Models},
+  author      = {Giannis Daras and Joseph Dean and Ajil Jalal and Alexandros G. Dimakis},
+  booktitle   = {ICML 2021},
+  year        = {2021},
+  abbr        = {ICML},
+  arxiv       = {2102.07364},
+  code        = {https://github.com/giannisdaras/ilo},
+  bibtex_show = {true}
+}
+
+@inproceedings{mri,
+  title       = {Robust Compressed Sensing MRI with Deep Generative Priors},
+  author      = {Ajil Jalal and Marius Arvinte and Giannis Daras and Eric Price and Alexandros G. Dimakis and Jonathan I. Tamir},
+  booktitle   = {NeurIPS 2021},
+  year        = {2021},
+  abbr        = {NeurIPS},
+  arxiv       = {2108.01368},
+  code        = {https://github.com/utcsilab/csgm-mri-langevin},
+  bibtex_show = {true}
+}
+
+@inproceedings{smyrf,
+  title       = {SMYRF: Efficient Attention using Asymmetric Clustering},
+  author      = {Giannis Daras and Nikita Kitaev and Augustus Odena and Alexandros G. Dimakis},
+  booktitle   = {NeurIPS 2020},
+  year        = {2020},
+  abbr        = {NeurIPS},
+  arxiv       = {2010.05315},
+  code        = {https://github.com/giannisdaras/smyrf},
+  bibtex_show = {true}
+}
+
+@inproceedings{ylg,
+  title       = {Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models},
+  author      = {Giannis Daras and Augustus Odena and Han Zhang and Alexandros G. Dimakis},
+  booktitle   = {CVPR 2020},
+  year        = {2019},
+  abbr        = {CVPR},
+  arxiv       = {1911.12287},
+  code        = {https://github.com/giannisdaras/ylg},
+  bibtex_show = {true}
+}

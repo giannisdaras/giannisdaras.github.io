@@ -1,280 +1,35 @@
 ---
+layout: about
+title: about
 permalink: /
-title: ""
-layout: single
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+subtitle: Assistant Professor, <a href="https://mitsloan.mit.edu/">MIT Sloan</a> &middot; Operations Research and Statistics
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p>Cambridge, MA</p>
+    <p>gdaras [at] mit [dot] edu</p>
+
+selected_papers: true
+social: true
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
 ---
 
-I am an **Assistant Professor** at **MIT Sloan**.
+I work on **generative AI** — in particular, principled algorithms for training and sampling generative models when the data is imperfect.
 
-Before that, I was a **Postdoctoral Associate** at **MIT CSAIL**, working with [Prof. Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Prof. Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/).
+My group's broad topics of interest are: learning from imperfect data, diffusion models, data-centric AI, inverse problems, AI4Science, and agents. See the [research lab](/lab/) page for the people.
 
-Prior to that, I spent 4 wonderful years doing my Ph.D. in Computer Science at UT Austin, working with [Prof. Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/).
+Before MIT Sloan I was a postdoctoral associate at [MIT CSAIL](https://www.csail.mit.edu/), working with [Costis Daskalakis](https://people.csail.mit.edu/costis/) and [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). I did my Ph.D. in Computer Science at UT Austin with [Alexandros Dimakis](https://users.ece.utexas.edu/~dimakis/), and my undergraduate degree in ECE at the National Technical University of Athens. I have spent time at NVIDIA Research and Google Research.
 
-I received my undergraduate degree in ECE from the National Technical University of Athens.
+**I am always looking for strong students.** If you are interested in working with me, send me an email with your CV and what you would like to work on.
 
-<hr class="section-rule">
-
-My group works on research questions related to **Generative AI**.<br>
-**Broad topics of interest:** learning from imperfect data, diffusion models, data-centric AI, inverse problems, AI4Science, and agents.
-
-<p class="recruiting-note">I am always looking for strong students. If you are interested in working with me, send me an email with your CV and what you would like to work on.</p>
-
-**Email**:    <span style="font-family: monospace;">gdaras [at] mit [dot] edu</span>.
-
-
-## Research Lab
-
-<div class="people-row">
-  <div class="person-tile">
-    <img class="person-photo" src="{{ site.baseurl }}/images/people/puneet-bagga.jpg" alt="Puneet Bagga">
-    <div class="person-tile-name"><a href="https://psbagga.com/" target="_blank" rel="noopener">Puneet Bagga</a></div>
-    <div class="person-tile-role">PhD Student</div>
-  </div>
-  <div class="person-tile">
-    <img class="person-photo" src="{{ site.baseurl }}/images/people/yubin-kim.jpg" alt="Yubin Kim">
-    <div class="person-tile-name"><a href="https://yubinkim04.github.io/" target="_blank" rel="noopener">Yubin Kim</a></div>
-    <div class="person-tile-role">Masters Student</div>
-  </div>
-  <div class="person-tile">
-    <img class="person-photo" src="{{ site.baseurl }}/images/people/danial-hosseintabar.jpg" alt="Danial Hosseintabar">
-    <div class="person-tile-name"><a href="https://danialht.github.io/" target="_blank" rel="noopener">Danial Hosseintabar</a></div>
-    <div class="person-tile-role">UROP</div>
-  </div>
-</div>
-
-## Selected Publications
-
-- **[Ambient Diffusion Omni: Training Good Models with Bad Data]({{ site.baseurl }}/publication/ambient_omni)**  
-  Giannis Daras*, Adrian Rodriguez-Munoz*, Adam Klivans, Antonio Torralba, Constantinos Daskalakis  
-  Published as a **Spotlight** in **NeurIPS 2025**  
-  [Paper](https://arxiv.org/abs/2506.10038) | [Code](https://github.com/giannisdaras/ambient-omni)
-
-- **[Ambient Proteins: Training Diffusion Models on Low Quality Structures]({{ site.baseurl }}/publication/ambient_proteins)**  
-  Giannis Daras*, Jeffrey Ouyang-Zhang*, Krithika Ravishankar, William Daspit, Costis Daskalakis, Qiang Liu, Adam Klivans, Daniel J. Diaz  
-  Published as a **Spotlight** in **NeurIPS 2025**  
-  [Paper](https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1) | [Code](https://github.com/jozhang97/ambient-proteins)
-
-- **[Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data]({{ site.baseurl }}/publication/ambient-tweedie)**  
-  Giannis Daras, Alexandros G. Dimakis, Constantinos Daskalakis  
-  Published in **ICML 2024**  
-  [Paper](https://arxiv.org/abs/2404.10177) | [Code](https://github.com/giannisdaras/ambient-tweedie)
-
-## News
-
-{% assign news_visible_count = 5 %}
-<ul class="news-list" id="news-list">
-{% for item in site.data.news %}
-  <li{% if forloop.index > news_visible_count %} class="news-hidden" style="display:none;"{% endif %}>
-    <span style="color:{{ item.color | default: 'green' }}"> {{ item.label }} </span> {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}
-    {% if item.image %}<br><img src="{{ item.image }}" alt="{{ item.image_alt }}" style="width:50%;">{% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% assign news_hidden_count = site.data.news.size | minus: news_visible_count %}
-{% if news_hidden_count > 0 %}
-<div>
-<button id="news-toggle-btn" class="btn" onclick="toggleNews()" style="font-size: 0.8em; padding: 0.4em 0.9em;">Show {{ news_hidden_count }} more &#9660;</button>
-<script>
-function toggleNews() {
-  var hiddenItems = document.querySelectorAll('#news-list .news-hidden');
-  var btn = document.getElementById('news-toggle-btn');
-  var isHidden = hiddenItems.length > 0 && hiddenItems[0].style.display === 'none';
-  for (var i = 0; i < hiddenItems.length; i++) {
-    hiddenItems[i].style.display = isHidden ? 'list-item' : 'none';
-  }
-  btn.innerHTML = isHidden ? 'Show fewer &#9650;' : 'Show {{ news_hidden_count }} more &#9660;';
-}
-</script>
-</div>
-{% endif %}
-
-
-## Internships
-* NVIDIA Research (2023) with [Arash Vahdat](https://scholar.google.com/citations?user=p9-nlRIAAAAJ&hl=en).
-* Google Research (2022) with [Peyman Milanfar](https://scholar.google.com/citations?user=iGzDl8IAAAAJ&hl=en), [Mauricio Delbracio](https://scholar.google.com/citations?user=lDDm920AAAAJ&hl=en) and [Hossein Talebi](https://scholar.google.com/citations?user=UOX9BigAAAAJ&hl=en). 
-* Google Research (2022) with [Vincent Chu](https://scholar.google.com/citations?user=R-OrlSgAAAAJ&hl=en) and [Abhishek Kumar](https://scholar.google.com/citations?user=6vghMS0AAAAJ&hl=en).
-
-
-
-
-
-
-## Talks
-
-The most representative talk of my latest research is the one given at Columbia Engineering, as part of the Workshop on Emerging Trends in AI. Please watch the talk [here](https://youtu.be/4HTuPx6wjJM?si=DVOShkwhiIIMJBON).
-
-![](images/columbia_photo.jpg)
-
-
-For a full list of the talks that I have given over the years, see below.
-<div class="talks-section">
-  <div class="talk-entry">
-    <div class="talk-main">EPFL School of Computer and Communication Sciences</div>
-    <div class="talk-sub">2026</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main"><a href="https://ai.utexas.edu/events/2026-03-03/texas-symposium-machine-learning-responsible-ai-robotics" target="_blank" rel="noopener">Texas Symposium on Machine Learning, Responsible AI & Robotics</a></div>
-    <div class="talk-sub">2026</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Imperial College London, Department of Computing </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Flatiron Institute </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Oral, NeurIPS Workshop on Structured Probabilistic Inference & Generative Modeling </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">NYU Stern, Department of Technology, Operations and Statistics </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">MIT, ML Tea Seminar Talk</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Mila - Quebec AI Institute</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Ben-Gurion University</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Runway ML</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">NTU Singapore</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      Simons Institute Berkeley
-      <br>
-      <a href="https://www.youtube.com/watch?v=YJ0Q3bmYUpE&list=PLgKuh-lKre13F6duXbU7e8dJqXnRpJuxy&index=19" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      Columbia University
-      <br>
-      <a href="https://www.youtube.com/watch?v=4HTuPx6wjJM&list=PLpktWkixc1gU0D1f4K-browFuoSluIvei&index=10" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Biomedical and Astronomical Signal Processing (BASP) Conference</div>
-    <div class="talk-sub">2025</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Harvard University, hosted by Sitan Chen</div>
-    <div class="talk-sub">2024</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Google DeepMind, London Office, hosted by Valentin De Bortoli and Arnaud Doucet</div>
-    <div class="talk-sub">2024</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      Grundfest Lecture series (UCLA + Caltech)
-      <br>
-      <a href="https://www.youtube.com/watch?v=038QxC5kTLk" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2024</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      Learning on Graphs and Geometry (LoGG) Reading Group, hosted by Hannes Stark
-      <br>
-      <a href="https://www.youtube.com/watch?v=iCDPewLVTro" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2024</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Aalto University</div>
-    <div class="talk-sub">2024</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      University of Wisconsin-Madison, MLOPT Idea Seminar
-      <br>
-      <a href="https://www.youtube.com/watch?v=qf5AZ62nO6E&t=7s" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2023</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">UT Austin, GenAI IFML Workshop</div>
-    <div class="talk-sub">2023</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">
-      EleutherAI Diffusion Reading Group
-      <br>
-      <a href="https://www.youtube.com/watch?v=Ped_I1uPL8Q" target="_blank" rel="noopener">Youtube Video</a>
-    </div>
-    <div class="talk-sub">2023</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Uppsala University</div>
-    <div class="talk-sub">2023</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Archimedes Research Unit</div>
-    <div class="talk-sub">2023</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">NeurIPS Workshop Oral Presentation</div>
-    <div class="talk-sub">2022</div>
-  </div>
-  <div class="talk-entry">
-    <div class="talk-main">Rice University, Imaging and Vision Seminar</div>
-    <div class="talk-sub">2022</div>
-  </div>
-</div>
-
-## Teaching
-
-### [Diffusion Models: From Theory to Practice (6.S982): Spring 2025, CSAIL, MIT](https://hackmd.io/vHEEDpPOTmex1O4zFeMYTw)
-
-Co-designed and co-taught this graduate MIT class with Prof. [Costis Daskalakis](http://people.csail.mit.edu/costis/).
-
-[Link to class website](https://hackmd.io/vHEEDpPOTmex1O4zFeMYTw).
-
-<div style="background-color: #f5f5f5; border-radius: 8px; padding: 16px; margin: 16px 0;">
-  <strong>Syllabus:</strong>
-  <ul>
-    <li><strong>Lecture 1</strong>: Introduction to generative models and their applications (GANs, VAEs, Flows, Diffusion Models, and Inverse Problems).</li>
-    <li><strong>Lecture 2</strong>: Deep dive in Diffusion Models (definition of the forward process, Itô integral, Itô formula, FP equation, reversibility, deterministic samplers, Tweedie's formula, Denoising Score Matching).</li>
-    <li><strong>Lecture 3</strong>: Diffusion models discretization error analysis.</li>
-    <li><strong>Lecture 4</strong>: Part I: Learning diffusion models from corrupted data, Part II: Likelihoods and Latent Diffusion.</li>
-    <li><strong>Lecture 5</strong>: Flow Matching.</li>
-    <li><strong>Lecture 6</strong>: Diffusion models and inverse problems.</li>
-    <li><strong>Lecture 7</strong>: Schrödinger bridges.</li>
-  </ul>
-</div>
-
-### [Advanced Machine Learning: Topics in Unsupervised Learning: Spring '23, ECE, UT Austin]()
-I was teaching assistant for this graduate UT Austin class and I gave several lectures.
-
-<div style="background-color: #f5f5f5; border-radius: 8px; padding: 16px; margin: 16px 0;">
-  <strong>Class description:</strong> This is an advanced class focusing on topics in unsupervised learning. We will cover classical and modern techniques for modeling high-dimensional distributions, including directed and undirected graphical models, learning graphical models using feature selection, submodularity, polytopes and combinatorial optimization, and inference in graphical models. Deep generative models covered include: Variational Autoencoders, Generative Adversarial Networks, Autoregressive models, Normalizing Flows, Diffusions, and score-based models. We will also explore problems in learning causal models and adversarial attacks.
-</div>
-
-## Publications
-For a more comprehensive list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=LaScvbQAAAAJ&hl=en) page.
-{% include base_path %}
-
-{% assign sorted = site.publications | reverse %}
-{% for post in sorted %}
-  {% include archive-single.html %}
-{% endfor %}
+My [CV is here](https://drive.google.com/file/d/1xyyDofOnWOoQBJ0mh1L4d7gkZZ0C1jtK/view?usp=sharing).

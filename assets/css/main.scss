@@ -1,41 +1,43 @@
 ---
+# Local override of al_folio_core's assets/css/main.scss.
+# Identical to the gem's file, plus the accent-colour block at the end.
+# Re-sync the @use list from the gem after an al-folio upgrade.
 ---
+@charset "utf-8";
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+@use "sass:math";
+@use "sass:string";
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
 
-@import "reset";
-@import "base";
+@use "themes";
+@use "layout";
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
 
-@import "forms";
+@use "tabs";
+@use "teachings";
+@use "typograms";
 
-@import "page";
-@import "archive";
-@import "sidebar";
+/* ---------------------------------------------------------------------------
+   Accent colour. al-folio ships magenta (#b509ac light / #2698ba dark); these
+   two blocks are the only local deviation from the stock theme. Declared after
+   the gem's partials so they win without !important.
+   --------------------------------------------------------------------------- */
+:root {
+  --global-theme-color: #1f4e79;
+  --global-hover-color: #1f4e79;
+}
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+html[data-theme="dark"] {
+  --global-theme-color: #7fb2d9;
+  --global-hover-color: #7fb2d9;
+}
