@@ -28,6 +28,15 @@
 @use "typograms";
 
 /* ---------------------------------------------------------------------------
+   Base type scale. al-folio's 16px root left body copy feeling small; 110%
+   scales the whole rem-based scale proportionally rather than patching
+   individual selectors.
+   --------------------------------------------------------------------------- */
+html {
+  font-size: 110%;
+}
+
+/* ---------------------------------------------------------------------------
    Accent colour. al-folio ships magenta (#b509ac light / #2698ba dark); these
    two blocks are the only local deviation from the stock theme. Declared after
    the gem's partials so they win without !important.
@@ -40,4 +49,15 @@
 html[data-theme="dark"] {
   --global-theme-color: #7fb2d9;
   --global-hover-color: #7fb2d9;
+}
+
+/* ---------------------------------------------------------------------------
+   The about layout hardcodes its section headings in lowercase ("news",
+   "selected publications") inside the gem, so they can't come from front
+   matter. Targeted by href to avoid capitalising unrelated h2s.
+   `capitalize` only uppercases initials, so NeurIPS etc. are left intact.
+   --------------------------------------------------------------------------- */
+h2 > a[href$="/news/"],
+h2 > a[href$="/publications/"] {
+  text-transform: capitalize;
 }

@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Assistant Professor, <a href="https://mitsloan.mit.edu/">MIT Sloan</a> &middot; Operations Research and Statistics
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: columbia_photo.jpg
   image_circular: false
   more_info: >
     <p>Cambridge, MA</p>
