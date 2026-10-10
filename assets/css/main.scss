@@ -262,5 +262,14 @@ h2 > a[href$="/publications/"] {
 }
 .pub-links { margin-bottom: 0; font-size: 0.85rem; }
 .pub-links a { margin-right: 1rem; }
-.post-content img { max-width: 100%; height: auto; }
-.post-content div[align="center"] { margin: 1.4rem 0; }
+
+/* Ported bodies use plain markdown/HTML images, which render at their natural
+   size — some of these files are 7000px wide. The content sits in a bare
+   <article>, not a .post-content wrapper, so cap it there. */
+.post article img,
+.post article video {
+  max-width: 100%;
+  height: auto;
+}
+.post article div[align="center"] { margin: 1.4rem 0; }
+.post article div[align="center"] img { margin-inline: auto; }
