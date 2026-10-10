@@ -92,10 +92,20 @@ h2 > a[href$="/publications/"] {
    Abs / arXiv / Bib / Code, so a Best Paper Award looked exactly like a link.
    Fill it instead, and prefix a trophy, so it reads as a distinction.
    --------------------------------------------------------------------------- */
+:root {
+  --award-color: #8a5a00;
+  --award-text: #fff;
+}
+html[data-theme="dark"] {
+  --award-color: #e0a93a;
+  --award-text: #111;
+}
+/* An award in the site's own navy read as just another venue badge. Amber
+   separates the two: the badge says where it was published, this says how. */
 .publications ol.bibliography li .links a.award.btn {
-  background-color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  color: var(--global-card-bg-color, #fff) !important;
+  background-color: var(--award-color);
+  border-color: var(--award-color);
+  color: var(--award-text) !important;
   font-weight: 600;
 }
 .publications ol.bibliography li .links a.award.btn::before {
@@ -105,9 +115,8 @@ h2 > a[href$="/publications/"] {
   margin-right: 0.45em;
 }
 .publications ol.bibliography li .links a.award.btn:hover {
-  background-color: var(--global-hover-color);
-  border-color: var(--global-hover-color);
-  color: var(--global-card-bg-color, #fff) !important;
+  filter: brightness(1.12);
+  color: var(--award-text) !important;
 }
 /* The hidden award blurb starts with an empty paragraph from the template. */
 .publications .award.hidden p:empty { display: none; }
