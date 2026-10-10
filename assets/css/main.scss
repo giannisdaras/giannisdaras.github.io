@@ -93,12 +93,12 @@ h2 > a[href$="/publications/"] {
    Fill it instead, and prefix a trophy, so it reads as a distinction.
    --------------------------------------------------------------------------- */
 :root {
-  --award-color: #f0b429;
-  --award-text: #1a1a1a;
+  --award-color: #0f766e;
+  --award-text: #fff;
 }
 html[data-theme="dark"] {
-  --award-color: #f5b942;
-  --award-text: #141414;
+  --award-color: #2dd4bf;
+  --award-text: #06201d;
 }
 /* An award in the site's own navy read as just another venue badge. Amber
    separates the two: the badge says where it was published, this says how. */
