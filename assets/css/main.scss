@@ -148,3 +148,10 @@ h2 > a[href$="/publications/"] {
 
 /* A paper can carry more than one venue badge; keep them from touching. */
 .publications ol.bibliography li .col.abbr abbr.badge + abbr.badge { margin-top: 0.3rem; }
+
+/* "NeurIPS Workshop" does not fit a badge sized for "ICML"; let it wrap. */
+.publications ol.bibliography li .col.abbr abbr.badge {
+  white-space: normal;
+  line-height: 1.25;
+  hyphens: none;
+}

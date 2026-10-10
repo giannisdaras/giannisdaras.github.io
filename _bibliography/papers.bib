@@ -2,7 +2,7 @@
 ---
 
 @inproceedings{ambient_omni,
-  abstract    = {Key insight: In this work, we show that there is immense value in the low-quality data that is often discarded. We introduce Ambient-o, a framework that uses synthetic, low-quality, and out-of-distribution data to improve diffusion models.},
+  abstract    = {We show how to use low-quality, synthetic, and out-of-distribution images to improve the quality of a diffusion model. Typically, diffusion models are trained on curated datasets that emerge from highly filtered data pools from the Web and other sources. We show that there is immense value in the lower-quality images that are often discarded. We present Ambient Diffusion Omni, a simple, principled framework to train diffusion models that can extract signal from all available images during training. Our framework exploits two properties of natural images — spectral power law decay and locality. We first validate our framework by successfully training diffusion models with images synthetically corrupted by Gaussian blur, JPEG compression, and motion blur. We then use our framework to achieve state-of-the-art ImageNet FID, and we show significant improvements in both image quality and diversity for text-to-image generative modeling. The core insight is that noise dampens the initial skew between the desired high-quality distribution and the mixed distribution we actually observe. We provide rigorous theoretical justification for our approach by analyzing the trade-off between learning from biased data versus limited unbiased data across diffusion times.},
   award       = {**Spotlight** at NeurIPS 2025},
   award_name  = {Spotlight},
   title       = {Ambient Diffusion Omni: Training Good Models with Bad Data},
@@ -50,7 +50,7 @@
   author      = {Adam Wei and Nicholas Pfaff and Thomas Cohn and Arif Kerem Dayı and Constantinos Daskalakis and Giannis Daras and Russ Tedrake},
   booktitle   = {CoRL 2026 and RSS 2026 Workshops},
   year        = {2026},
-  abbr        = {CoRL, RSS},
+  abbr        = {CoRL, RSS Workshop},
   arxiv       = {2606.12365},
   html        = {https://ambient-diffusion-policy.github.io/},
   award       = {**Best Paper Award** — Data-Centric Robotics Workshop, RSS 2026<br>**Most Useful Practical Information Award** — "It's the Demos" Workshop, RSS 2026},
@@ -99,7 +99,7 @@
   year        = {2026},
   arxiv       = {2510.12691},
   code        = {https://github.com/danialht/DiffEM},
-  abstract    = {Diffusion models have emerged as powerful generative priors for high-dimensional inverse problems, yet},
+  abstract    = {Diffusion models have emerged as powerful generative priors for high-dimensional inverse problems, yet learning them when only corrupted or noisy observations are available remains challenging. In this work, we propose a new method for training diffusion models with Expectation-Maximization (EM) from corrupted data. Our proposed method, DiffEM, utilizes conditional diffusion models to reconstruct clean data from observations in the E-step, and then uses the reconstructed data to refine the conditional diffusion model in the M-step. Theoretically, we provide monotonic convergence guarantees for the DiffEM iteration, assuming appropriate statistical conditions. We demonstrate the effectiveness of our approach through experiments on various image reconstruction tasks.},
   bibtex_show = {true}
 }
 
@@ -260,7 +260,7 @@
   author      = {Giannis Daras and Alexandros G. Dimakis},
   booktitle   = {NeurIPS 2022, SBM Workshop},
   year        = {2022},
-  abbr        = {NeurIPS},
+  abbr        = {NeurIPS Workshop},
   arxiv       = {2211.17115},
   code        = {https://github.com/giannisdaras/multires_textual_inversion},
   bibtex_show = {true}
@@ -307,7 +307,7 @@
   author      = {Giannis Daras* and Alexandros G. Dimakis},
   booktitle   = {NeurIPS 2022 Workshop on Score-Based Methods},
   year        = {2022},
-  abbr        = {NeurIPS},
+  abbr        = {NeurIPS Workshop},
   arxiv       = {2206.00169},
   bibtex_show = {true}
 }
