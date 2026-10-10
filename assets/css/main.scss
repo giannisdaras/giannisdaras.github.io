@@ -65,3 +65,24 @@ h2 > a[href$="/publications/"] {
 /* Page descriptions were removed from front matter; the theme still emits an
    empty <p class="post-description">, which would leave a gap. */
 .post-description:empty { display: none; margin: 0; }
+
+/* ---------------------------------------------------------------------------
+   Compact link row at the top of the about page, replacing the theme's large
+   icon-only block at the foot of the page (about.md sets social: false).
+   --------------------------------------------------------------------------- */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  margin: 0 0 1.4rem;
+  font-size: 0.78rem;
+}
+.quick-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+.quick-links a:hover { color: var(--global-theme-color); }
+.quick-links i { font-size: 1em; }
