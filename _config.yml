@@ -9,12 +9,12 @@ last_name: Daras
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Giannis Daras is an Assistant Professor at MIT Sloan working on generative AI,
+  Giannis Daras is an Assistant Professor at MIT working on generative AI,
   diffusion models, and learning from imperfect data.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the
   <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
-keywords: generative AI, diffusion models, machine learning, MIT Sloan, Giannis Daras
+keywords: generative AI, data-efficient learning, diffusion models, machine learning, MIT, Giannis Daras
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⟡ # favicon
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
