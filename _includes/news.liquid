@@ -1,0 +1,59 @@
+{%- comment -%}
+  Local copy of al_folio_core's _includes/news.liquid.
+
+  Change from the gem: instead of silently truncating the list at
+  page.announcements.limit, every item is rendered and the ones past the limit
+  start hidden behind a "Show N more" button, as the old site had. The gem's
+  scrollable max-height is dropped, since the two do not combine well.
+  Re-copy from the gem after an al-folio upgrade.
+{%- endcomment -%}
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    {% assign news = site.news | reverse %}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+    {% assign news_hidden = news_size | minus: news_limit %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in news %}
+          <tr{% if forloop.index > news_limit %} class="news-more" hidden{% endif %}>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% if news_hidden > 0 %}
+      <button type="button" class="news-toggle" data-more="Show {{ news_hidden }} more" data-less="Show fewer" aria-expanded="false">
+        Show {{ news_hidden }} more <span class="news-toggle-caret">&#9662;</span>
+      </button>
+      <script>
+        (function () {
+          var btn = document.currentScript.previousElementSibling;
+          btn.addEventListener('click', function () {
+            var open = btn.getAttribute('aria-expanded') === 'true';
+            document.querySelectorAll('.news .news-more').forEach(function (row) {
+              row.hidden = open;
+            });
+            btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+            btn.innerHTML =
+              (open ? btn.dataset.more : btn.dataset.less) +
+              ' <span class="news-toggle-caret">' + (open ? '&#9662;' : '&#9652;') + '</span>';
+          });
+        })();
+      </script>
+    {% endif %}
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

@@ -155,3 +155,25 @@ h2 > a[href$="/publications/"] {
   line-height: 1.25;
   hyphens: none;
 }
+
+/* ---------------------------------------------------------------------------
+   "Show N more" toggle under the news list (see _includes/news.liquid).
+   Matches the outline buttons used on publication entries.
+   --------------------------------------------------------------------------- */
+.news-toggle {
+  display: inline-block;
+  margin: 0.2rem 0 0.4rem;
+  padding: 0.25rem 1rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  background: none;
+  border: 1px solid var(--global-text-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.news-toggle:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.news-toggle-caret { font-size: 0.85em; }
