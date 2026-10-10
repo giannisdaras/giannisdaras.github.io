@@ -145,3 +145,6 @@ h2 > a[href$="/publications/"] {
   color: var(--global-text-color-light);
 }
 .talk-video:hover { color: var(--global-theme-color); }
+
+/* A paper can carry more than one venue badge; keep them from touching. */
+.publications ol.bibliography li .col.abbr abbr.badge + abbr.badge { margin-top: 0.3rem; }
