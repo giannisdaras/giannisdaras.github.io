@@ -177,3 +177,76 @@ h2 > a[href$="/publications/"] {
   border-color: var(--global-theme-color);
 }
 .news-toggle-caret { font-size: 0.85em; }
+
+/* ---------------------------------------------------------------------------
+   Filter chips above the publication list (see _pages/publications.md).
+   Same outline-button vocabulary as the news toggle and the entry links.
+   --------------------------------------------------------------------------- */
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1.6rem;
+}
+.pub-filter {
+  padding: 0.25rem 1rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  background: none;
+  border: 1px solid var(--global-text-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.pub-filter:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.pub-filter.is-active {
+  color: var(--global-card-bg-color, #fff);
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.pub-filter-count {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+}
+
+/* Entries the award filter has hidden (the theme's text search uses .unloaded). */
+.publications [data-pub-filtered] { display: none !important; }
+
+/* The theme's filter box, sized to sit with the chips. */
+.bibsearch-form-input {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.3rem 0.7rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color);
+  background: none;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+}
+.bibsearch-form-input:focus {
+  outline: none;
+  border-color: var(--global-theme-color);
+}
+
+/* ---------------------------------------------------------------------------
+   About page sections. The theme gives its section headings (news, selected
+   publications) no top margin, so each one sat a paragraph-gap below the
+   block before it and the page read as one undifferentiated column. Give them
+   room and a hairline rule, the same separator the old site used.
+   --------------------------------------------------------------------------- */
+.post > article > h2,
+.post > article > .clearfix > h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  padding-top: 1.7rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+/* The profile photo floats, so an early rule would run under it. */
+.post > article > .clearfix > h2:first-child {
+  margin-top: 1.5rem;
+}
