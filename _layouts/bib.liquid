@@ -3,7 +3,8 @@
 # Only change from the gem: the entry.html button reads
 # "Project Website" instead of "HTML", and the entry.website button reads
 # "Demo" (entry.html already covers project websites), and a
-# comma-separated entry.abbr renders one badge per venue.
+# comma-separated entry.abbr renders one badge per venue. An entry.page
+# makes the title link to that paper's own page.
 # Re-copy from the gem after an al-folio upgrade.
 ---
 <div class="row">
@@ -78,7 +79,13 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {%- if entry.page -%}
+        <a href="{{ entry.page | relative_url }}">{{ entry.title }}</a>
+      {%- else -%}
+        {{ entry.title }}
+      {%- endif -%}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}

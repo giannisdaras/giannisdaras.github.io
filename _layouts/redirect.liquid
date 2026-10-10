@@ -1,0 +1,18 @@
+---
+# Minimal instant redirect. The theme's `redirect:` front matter renders a full
+# page with a 3-second meta refresh, which is the wrong trade for a URL that
+# only exists to keep an old link alive.
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | default: 'Redirecting' }}</title>
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+    <meta name="robots" content="noindex">
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ page.redirect_to | relative_url }}">{{ page.redirect_to }}</a>.</p>
+  </body>
+</html>

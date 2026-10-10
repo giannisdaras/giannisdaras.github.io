@@ -250,3 +250,17 @@ h2 > a[href$="/publications/"] {
 .post > article > .clearfix > h2:first-child {
   margin-top: 1.5rem;
 }
+
+/* ---------------------------------------------------------------------------
+   Ported per-paper pages (_pages/publication/) and the blog post.
+   --------------------------------------------------------------------------- */
+.pub-authors { margin-bottom: 0.2rem; }
+.pub-venue {
+  margin-bottom: 0.2rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+.pub-links { margin-bottom: 0; font-size: 0.85rem; }
+.pub-links a { margin-right: 1rem; }
+.post-content img { max-width: 100%; height: auto; }
+.post-content div[align="center"] { margin: 1.4rem 0; }
