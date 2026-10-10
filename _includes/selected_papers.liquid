@@ -1,0 +1,14 @@
+{%- comment -%}
+  Local copy of al_folio_core's _includes/selected_papers.liquid.
+  Change from the gem: the same Google Scholar line that heads /publications/,
+  so the pointer is wherever a reader meets a partial list.
+  Re-copy from the gem after an al-folio upgrade.
+{%- endcomment -%}
+<p class="scholar-note">
+  For the most updated list of my publications, check my
+  <a href="https://scholar.google.com/citations?user=LaScvbQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+  page.
+</p>
+<div class="publications">
+  {% bibliography --group_by none --query @*[selected=true]* %}
+</div>

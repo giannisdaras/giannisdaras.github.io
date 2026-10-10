@@ -93,12 +93,12 @@ h2 > a[href$="/publications/"] {
    Fill it instead, and prefix a trophy, so it reads as a distinction.
    --------------------------------------------------------------------------- */
 :root {
-  --award-color: #8a5a00;
-  --award-text: #fff;
+  --award-color: #f0b429;
+  --award-text: #1a1a1a;
 }
 html[data-theme="dark"] {
-  --award-color: #e0a93a;
-  --award-text: #111;
+  --award-color: #f5b942;
+  --award-text: #141414;
 }
 /* An award in the site's own navy read as just another venue badge. Amber
    separates the two: the badge says where it was published, this says how. */
@@ -282,3 +282,10 @@ html[data-theme="dark"] {
 }
 .post article div[align="center"] { margin: 1.4rem 0; }
 .post article div[align="center"] img { margin-inline: auto; }
+
+/* Pointer to Google Scholar, above each list of publications. */
+.scholar-note {
+  margin: -0.2rem 0 1.1rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}

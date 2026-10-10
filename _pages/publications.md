@@ -6,6 +6,12 @@ nav: true
 nav_order: 2
 ---
 
+<p class="scholar-note">
+  For the most updated list of my publications, check my
+  <a href="https://scholar.google.com/citations?user=LaScvbQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+  page.
+</p>
+
 {% include bib_search.liquid %}
 
 <div class="pub-filters" role="group" aria-label="Filter publications">
