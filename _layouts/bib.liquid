@@ -209,6 +209,27 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
+    {%- comment -%}
+      Change from the gem: our venues are written with the year in them
+      ("NeurIPS 2025"), so the gem's trailing year repeated it — and for a
+      paper posted in one year and published the next it contradicted it
+      ("In NeurIPS 2026, 2025"). Drop the standalone year when the venue
+      already carries one; a venue written without a year still gets it,
+      and so do preprints, which have no venue at all.
+    {%- endcomment -%}
+    {% assign venue_has_year = false %}
+    {% assign venue_words = entrytype_text | replace: ',', ' ' | split: ' ' %}
+    {% for word in venue_words %}
+      {% assign word_size = word | size %}
+      {% assign word_prefix = word | slice: 0, 2 %}
+      {% if word_size == 4 and word_prefix == '20' or word_size == 4 and word_prefix == '19' %}
+        {% assign venue_has_year = true %}
+      {% endif %}
+    {% endfor %}
+    {% if venue_has_year %}
+      {% assign entryyear = '' %}
+      {% assign entrymonth = '' %}
+    {% endif %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
