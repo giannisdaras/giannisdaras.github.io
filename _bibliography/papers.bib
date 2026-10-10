@@ -1,6 +1,36 @@
 ---
 ---
 
+@inproceedings{ambient_omni,
+  abstract    = {Key insight: In this work, we show that there is immense value in the low-quality data that is often discarded. We introduce Ambient-o, a framework that uses synthetic, low-quality, and out-of-distribution data to improve diffusion models.},
+  award       = {**Spotlight** at NeurIPS 2025},
+  award_name  = {Spotlight},
+  title       = {Ambient Diffusion Omni: Training Good Models with Bad Data},
+  author      = {Giannis Daras* and Adrian Rodriguez-Munoz* and Adam Klivans and Antonio Torralba and Constantinos Daskalakis},
+  booktitle   = {NeurIPS 2025},
+  year        = {2025},
+  abbr        = {NeurIPS},
+  arxiv       = {2506.10038},
+  code        = {https://github.com/giannisdaras/ambient-omni},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@inproceedings{ambient_proteins,
+  abstract    = {We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality. State-of-the-art generative models are trained on computationally derived structures from AlphaFold2 (AF), as experimentally determined structures are relatively scarce. The resulting models are therefore limited by the quality of synthetic datasets. Since the accuracy of AF predictions degrades with increasing protein length and complexity, de novo generation of long, complex proteins remains challenging. Ambient Protein Diffusion overcomes this problem by treating low-confidence AF structures as corrupted data. Rather than simply filtering out low-quality AF structures, our method adjusts the diffusion objective for each structure based on its corruption level, allowing the model to learn from both high and low quality structures. Empirically, Ambient Protein Diffusion yields major improvements: on proteins with 700 residues, diversity increases from 45% to 86% from the previous state-of-the-art, and designability improves from 68% to 86%. We will make all of our code, models and datasets available under the following repository: https://github.com/jozhang97/ambient-proteins.},
+  award       = {**Spotlight** at NeurIPS 2025},
+  award_name  = {Spotlight},
+  title       = {Ambient Proteins: Training Diffusion Models on Low Quality Structures},
+  author      = {Giannis Daras* and Jeffrey Ouyang-Zhang* and Krithika Ravishankar and William Daspit and Costis Daskalakis and Qiang Liu and Adam Klivans and Daniel J. Diaz},
+  booktitle   = {NeurIPS 2025},
+  year        = {2025},
+  abbr        = {NeurIPS},
+  pdf         = {https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1},
+  code        = {https://github.com/jozhang97/ambient-proteins},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
 @inproceedings{thousand_paintings,
   title       = {An Image Worth a Thousand Paintings},
   author      = {George Cazenavette and Angelina Quan and Giannis Daras and Antonio Torralba and Vincent Sitzmann},
@@ -69,7 +99,7 @@
   year        = {2026},
   arxiv       = {2510.12691},
   code        = {https://github.com/danialht/DiffEM},
-  abstract    = {Diffusion models have emerged as powerful generative priors for high-dimensional inverse problems, yet learning them when only corrupted or noisy observations are available remains challenging. In this work, we propose a new method for training diffusion models with Expectation-Maximization (EM) from corrupted data. Our proposed method, DiffEM, utilizes conditional diffusion models to reconstruct clean data from observations in the E-step, and then uses the reconstructed data to refine the conditional diffusion model in the M-step. Theoretically, we provide monotonic convergence guarantees for the DiffEM iteration, assuming appropriate statistical conditions. We demonstrate the effectiveness of our approach through experiments on various image reconstruction tasks},
+  abstract    = {Diffusion models have emerged as powerful generative priors for high-dimensional inverse problems, yet},
   bibtex_show = {true}
 }
 
@@ -85,37 +115,8 @@
   bibtex_show = {true}
 }
 
-@inproceedings{ambient_proteins,
-  award       = {**Spotlight** at NeurIPS 2025},
-  award_name  = {Spotlight},
-  title       = {Ambient Proteins: 
- Training Diffusion Models on Low Quality Structures},
-  author      = {Giannis Daras* and Jeffrey Ouyang-Zhang* and Krithika Ravishankar and William Daspit and Costis Daskalakis and Qiang Liu and Adam Klivans and Daniel J. Diaz},
-  booktitle   = {NeurIPS 2025},
-  year        = {2025},
-  abbr        = {NeurIPS},
-  pdf         = {https://www.biorxiv.org/content/10.1101/2025.07.03.663105v1},
-  code        = {https://github.com/jozhang97/ambient-proteins},
-  bibtex_show = {true},
-  selected    = {true}
-}
-
-@inproceedings{ambient_omni,
-  award       = {**Spotlight** at NeurIPS 2025},
-  award_name  = {Spotlight},
-  title       = {Ambient Diffusion Omni: 
- Training Good Models with Bad Data},
-  author      = {Giannis Daras* and Adrian Rodriguez-Munoz* and Adam Klivans and Antonio Torralba and Constantinos Daskalakis},
-  booktitle   = {NeurIPS 2025},
-  year        = {2025},
-  abbr        = {NeurIPS},
-  arxiv       = {2506.10038},
-  code        = {https://github.com/giannisdaras/ambient-omni},
-  bibtex_show = {true},
-  selected    = {true}
-}
-
 @inproceedings{image_worth,
+  abstract    = {The quality of generative models depends on the quality of the data they are trained on. Creating large-scale, high-quality datasets is often expensive and sometimes impossible, e.g. in certain scientific applications where there is no access to clean data due to physical or instrumentation constraints. Ambient Diffusion and related frameworks train diffusion models with solely corrupted data (which are usually cheaper to acquire) but ambient models significantly underperform models trained on clean data. We study this phenomenon at scale by training more than 80 models on data with different corruption levels across three datasets ranging from 30,000 to ≈1.3M samples. We show that it is impossible, at these sample sizes, to match the performance of models trained on clean data when only training on noisy data. Yet, a combination of a small set of clean data (e.g.~10% of the total dataset) and a large set of highly noisy data suffices to reach the performance of models trained solely on similar-size datasets of clean data, and in particular to achieve near state-of-the-art performance. We provide theoretical evidence for our findings by developing novel sample complexity bounds for learning from Gaussian Mixtures with heterogeneous variances. Our theoretical model suggests that, for large enough datasets, the effective marginal utility of a noisy sample is exponentially worse than that of a clean sample. Providing a small set of clean samples can significantly reduce the sample size requirements for noisy data, as we also observe in our experiments.},
   title       = {How much is a noisy image worth? Data Scaling Laws for Ambient Diffusion},
   author      = {Giannis Daras and Yeshwanth Cherapanamjeri and Constantinos Daskalakis},
   booktitle   = {ICLR 2025},
@@ -151,6 +152,7 @@
 }
 
 @inproceedings{ambient_dps,
+  abstract    = {We provide a framework for solving inverse problems with diffusion models learned from linearly corrupted data. Our method, Ambient Diffusion Posterior Sampling (A-DPS), leverages a generative model pre-trained on one type of corruption (e.g. image inpainting) to perform posterior sampling conditioned on measurements from a potentially different forward process (e.g. image blurring). We test the efficacy of our approach on standard natural image datasets (CelebA, FFHQ, and AFHQ) and we show that A-DPS can sometimes outperform models trained on clean data for several image restoration tasks in both speed and performance. We further extend the Ambient Diffusion framework to train MRI models with access only to Fourier subsampled multi-coil MRI measurements at various acceleration factors (R = 2, 4, 6, 8). We again observe that models trained on highly subsampled data are better priors for solving inverse problems in the high acceleration regime than models trained on fully sampled data.},
   title       = {Ambient Diffusion Posterior Sampling: Solving Inverse Problems with Diffusion Models trained on Corrupted Data},
   author      = {Asad Aali and Giannis Daras and Brett Levac and Sidharth Kumar and Alexandros G. Dimakis and Jonathan I. Tamir'},
   booktitle   = {ICLR 2025},
@@ -162,6 +164,7 @@
 }
 
 @inproceedings{dclm,
+  abstract    = {We introduce DataComp for Language Models (DCLM), a testbed for controlled dataset experiments with the goal of improving language models. As part of DCLM, we provide a standardized corpus of 240T tokens extracted from Common Crawl, effective pretraining recipes based on the OpenLM framework, and a broad suite of 53 downstream evaluations. Participants in the DCLM benchmark can experiment with data curation strategies such as deduplication, filtering, and data mixing at model scales ranging from 412M to 7B parameters. As a baseline for DCLM, we conduct extensive experiments and find that model-based filtering is key to assembling a high-quality training set. The resulting dataset, DCLM-BASELINE, enables training a 7B parameter language model from scratch to 64% 5-shot accuracy on MMLU with 2.6T training tokens. Compared to MAP-Neo, the previous state-of-the-art in open-data language models, DCLM-BASELINE represents a 6.6 percentage point improvement on MMLU while being trained with 40% less compute. Our baseline model is also comparable to Mistral-7B-v0.3 and Llama 3 8B on MMLU (63% \& 66%), and performs similarly on an average of 53 natural language understanding tasks while being trained with 6.6× less compute than Llama 3 8B. Our results highlight the importance of dataset design for training language models and offer a starting point for further research on data curation.},
   title       = {DataComp-LM: In search of the next generation of training sets for language models},
   author      = {Jeffrey Li and Alex Fang and Georgios Smyrnis and Maor Ivgi and Matt Jordan and Samir Gadre and Hritik Bansal and Etash Guha and Sedrick Keh and Kushal Arora and Saurabh Garg and Rui Xin and Niklas Muennighoff and Reinhard Heckel and Jean Mercat and Mayee Chen and Suchin Gururangan and Mitchell Wortsman and Alon Albalak and Yonatan Bitton and Marianna Nezhurina and Amro Abbas and Cheng-Yu Hsieh and Dhruba Ghosh and Josh Gardner and Maciej Kilian and Hanlin Zhang and Rulin Shao and Sarah Pratt and Sunny Sanyal and Gabriel Ilharco and Giannis Daras and Kalyani Marathe and Aaron Gokaslan and Jieyu Zhang and Khyathi Chandu and Thao Nguyen and Igor Vasiljevic and Sham Kakade and Shuran Song and Sujay Sanghavi and Fartash Faghri and Sewoong Oh and Luke Zettlemoyer and Kyle Lo and Alaaeldin El-Nouby and Hadi Pouransari and Alexander Toshev and Stephanie Wang and Dirk Groeneveld and Luca Soldaini and Pang Wei Koh and Jenia Jitsev and Thomas Kollar and Alexandros G. Dimakis and Yair Carmon and Achal Dave and Ludwig Schmidt and Vaishaal Shankar},
   booktitle   = {NeurIPS 2024 Track Datasets and Benchmarks},
@@ -174,6 +177,7 @@
 }
 
 @inproceedings{ambient_tweedie,
+  abstract    = {Ambient diffusion is a recently proposed framework for training diffusion models using corrupted data. Both Ambient Diffusion and alternative SURE-based approaches for learning diffusion models from corrupted data resort to approximations which deteriorate performance. We present the first framework for training diffusion models that provably sample from the uncorrupted distribution given only noisy training data, solving an open problem in this space. Our key technical contribution is a method that uses a double application of Tweedie's formula and a consistency loss function that allows us to extend sampling at noise levels below the observed data noise. We also provide further evidence that diffusion models memorize from their training sets by identifying extremely corrupted images that are almost perfectly reconstructed, raising copyright and privacy concerns. Our method for training using corrupted samples can be used to mitigate this problem. We demonstrate this by fine-tuning Stable Diffusion XL to generate samples from a distribution using only noisy samples. Our framework reduces the amount of memorization of the fine-tuning dataset, while maintaining competitive performance.},
   title       = {Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data},
   author      = {Giannis Daras and Alexandros G. Dimakis and Constantinos Daskalakis},
   booktitle   = {ICML 2024},
@@ -186,6 +190,7 @@
 }
 
 @inproceedings{psld,
+  abstract    = {We present the first framework to solve linear inverse problems leveraging pre-trained latent diffusion models. Previously proposed algorithms (such as DPS and DDRM) only apply to pixel-space diffusion models. We theoretically analyze our algorithm showing provable sample recovery in a linear model setting. The algorithmic insight obtained from our analysis extends to more general settings often considered in practice. Experimentally, we outperform previously proposed posterior sampling algorithms in a wide variety of problems including random inpainting, block inpainting, denoising, deblurring, destriping, and super-resolution.},
   title       = {Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models},
   author      = {Litu Rout and Negin Raoof and Giannis Daras and Constantine Caramanis and Alexandros G. Dimakis and Sanjay Shakkottai},
   booktitle   = {NeurIPS 2023},
@@ -197,6 +202,7 @@
 }
 
 @inproceedings{ambient,
+  abstract    = {We present the first diffusion-based framework that can learn an unknown distribution using only highly-corrupted samples. This problem arises in scientific applications where access to uncorrupted samples is impossible or expensive to acquire. Another benefit of our approach is the ability to train generative models that do not memorize any individual training sample, since they never observe clean training data. Our main idea is to introduce additional measurement distortion during the diffusion process and require the model to predict the original corrupted image from the further corrupted image. We prove that our method leads to models that learn the conditional expectation of the full uncorrupted image given this additional measurement corruption. This holds for any corruption process that satisfies some technical conditions (and in particular includes inpainting and compressed sensing). We train models on standard benchmarks (CelebA, CIFAR-10 and AFHQ) and show that we can learn the distribution even when all the training samples have 90% of their pixels missing. We also show that when we finetune foundation models using small corrupted datasets (e.g. MRI scans with block corruptions), we learn the clean distribution without memorizing the training set.},
   title       = {Ambient Diffusion: Learning Clean Distributions from Corrupted Data},
   author      = {Giannis Daras and Kulin Shah and Yuval Dagan and Aravind Gollakota and Alexandros G. Dimakis and Adam Klivans},
   booktitle   = {NeurIPS 2023},
@@ -208,6 +214,7 @@
 }
 
 @inproceedings{datacomp,
+  abstract    = {Multimodal datasets are a critical component in recent breakthroughs such as Stable Diffusion and GPT-4, yet their design does not receive the same research attention as model architectures or training algorithms. To address this shortcoming in the ML ecosystem, we introduce DataComp, a testbed for dataset experiments centered around a new candidate pool of 12.8 billion image-text pairs from Common Crawl. Participants in our benchmark design new filtering techniques or curate new data sources and then evaluate their new dataset by running our standardized CLIP training code and testing the resulting model on 38 downstream test sets. Our benchmark consists of multiple compute scales spanning four orders of magnitude, which enables the study of scaling trends and makes the benchmark accessible to researchers with varying resources. Our baseline experiments show that the DataComp workflow leads to better training sets. In particular, our best baseline, DataComp-1B, enables training a CLIP ViT-L/14 from scratch to 79.2% zero-shot accuracy on ImageNet, outperforming OpenAI's CLIP ViT-L/14 by 3.7 percentage points while using the same training procedure and compute.},
   award       = {**Oral** at NeurIPS 2023},
   award_name  = {Oral},
   title       = {DataComp: In search of the next generation of multimodal datasets},
@@ -222,6 +229,7 @@
 }
 
 @inproceedings{restoration_degradation,
+  abstract    = {We develop a framework for non-asymptotic analysis of deterministic samplers used for diffusion generative modeling. Several recent works have analyzed stochastic samplers using tools like Girsanov's theorem and a chain rule variant of the interpolation argument. Unfortunately, these techniques give vacuous bounds when applied to deterministic samplers. We give a new operational interpretation for deterministic sampling by showing that one step along the probability flow ODE can be expressed as two steps: 1) a restoration step that runs gradient ascent on the conditional log-likelihood at some infinitesimally previous time, and 2) a degradation step that runs the forward process using noise pointing back towards the current iterate. This perspective allows us to extend denoising diffusion implicit models to general, non-linear forward processes. We then develop the first polynomial convergence bounds for these samplers under mild conditions on the data distribution.},
   title       = {Restoration-Degradation Beyond Linear Diffusions: A Non-Asymptotic Analysis for DDIM-Type Samplers},
   author      = {Sitan Chen and Giannis Daras and Alexandros G. Dimakis},
   booktitle   = {ICML 2023},
@@ -232,6 +240,7 @@
 }
 
 @inproceedings{cdm,
+  abstract    = {Imperfect score-matching leads to a shift between the training and the sampling distribution of diffusion models. Due to the recursive nature of the generation process, errors in previous steps yield sampling iterates that drift away from the training distribution. Yet, the standard training objective via Denoising Score Matching (DSM) is only designed to optimize over non-drifted data. To train on drifted data, we propose to enforce a consistency property which states that predictions of the model on its own generated data are consistent across time. Theoretically, we show that if the score is learned perfectly on some non-drifted points (via DSM) and if the consistency property is enforced everywhere, then the score is learned accurately everywhere. Empirically we show that our novel training objective yields state-of-the-art results for conditional and unconditional generation in CIFAR-10 and baseline improvements in AFHQ and FFHQ.},
   title       = {Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent},
   author      = {Giannis Daras and Yuval Dagan and Alexandros G. Dimakis and Constantinos Daskalakis},
   booktitle   = {NeurIPS 2023},
@@ -243,6 +252,7 @@
 }
 
 @inproceedings{multires_textual_inversion,
+  abstract    = {We extend Textual Inversion to learn pseudo-words that represent a concept at different resolutions. This allows us to generate images that use the concept with different levels of detail and also to manipulate different resolutions using language. Once learned, the user can generate images at different levels of agreement to the original concept; "A photo of $S^(0)$" produces the exact object while the prompt "A photo of $S^(0.8)$" only matches the rough outlines and colors. Our framework allows us to generate images that use different resolutions of an image (e.g. details, textures, styles) as separate pseudo-words that can be composed in various ways. We open-soure our code in the following URL: https://github.com/giannisdaras/multires_textual_inversion},
   award       = {**Oral** at NeurIPS 2022, SBM Workshop},
   award_name  = {Oral},
   title       = {Multiresolution Textual Inversion},
@@ -256,6 +266,7 @@
 }
 
 @article{soft_diffusion,
+  abstract    = {We define a broader family of corruption processes that generalizes previously known diffusion models. To reverse these general diffusions, we propose a new objective called Soft Score Matching that provably learns the score function for any linear corruption process and yields state of the art results for CelebA. Soft Score Matching incorporates the degradation process in the network. Our new loss trains the model to predict a clean image, that after corruption, matches the diffused observation. We show that our objective learns the gradient of the likelihood under suitable regularity conditions for a family of corruption processes. We further develop a principled way to select the corruption levels for general diffusion processes and a novel sampling method that we call Momentum Sampler. We show experimentally that our framework works for general linear corruption processes, such as Gaussian blur and masking. We achieve state-of-the-art FID score 1.85 on CelebA-64, outperforming all previous linear diffusion models. We also show significant computational benefits compared to vanilla denoising diffusion.},
   title       = {Soft Diffusion: Score Matching for General Corruptions},
   author      = {Giannis Daras and Mauricio Delbracio and Hossein Talebi and Alexandros G. Dimakis and Peyman Milanfar},
   journal     = {TMLR 2023},
@@ -278,6 +289,7 @@
 }
 
 @inproceedings{bilingual_robustness,
+  abstract    = {We find a surprising connection between multitask learning and robustness to neuron failures. Our experiments show that bilingual language models retain higher performance under various neuron perturbations, such as random deletions, magnitude pruning and weight noise compared to equivalent monolingual ones. We provide a theoretical justification for this robustness by mathematically analyzing linear representation learning and showing that multitasking creates more robust representations. Our analysis connects robustness to spectral properties of the learned representation and proves that multitasking leads to higher robustness for diverse task vectors. We open-source our code and models: https://github.com/giannisdaras/multilingual_robustness},
   title       = {Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve},
   author      = {Giannis Daras* and Negin Raoof* and Zoi Gkalitsiou and Alexandros G. Dimakis},
   booktitle   = {NeurIPS 2022},
@@ -289,6 +301,7 @@
 }
 
 @inproceedings{hidden_vocab,
+  abstract    = {We discover that DALLE-2 seems to have a hidden vocabulary that can be used to generate images with absurd prompts. For example, it seems that \texttt(Apoploe vesrreaitais) means birds and \texttt(Contarra ccetnxniams luryca tanniounons) (sometimes) means bugs or pests. We find that these prompts are often consistent in isolation but also sometimes in combinations. We present our black-box method to discover words that seem random but have some correspondence to visual concepts. This creates important security and interpretability challenges.},
   title       = {Discovering the Hidden Vocabulary of DALLE-2},
   author      = {Giannis Daras* and Alexandros G. Dimakis},
   booktitle   = {NeurIPS 2022 Workshop on Score-Based Methods},
@@ -299,15 +312,17 @@
 }
 
 @misc{inv_nerfgans,
+  abstract    = {We introduce a novel framework for solving inverse problems using NeRF-style generative models. We are interested in the problem of 3-D scene reconstruction given a single 2-D image and known camera parameters. We show that naively optimizing the latent space leads to artifacts and poor novel view rendering. We attribute this problem to volume obstructions that are clear in the 3-D geometry and become visible in the renderings of novel views. We propose a novel radiance field regularization method to obtain better 3-D surfaces and improved novel views given single view observations. Our method naturally extends to general inverse problems including inpainting where one observes only partially a single view. We experimentally evaluate our method, achieving visual improvements and performance boosts over the baselines in a wide range of tasks. Our method achieves $30-40\%$ MSE reduction and $15-25\%$ reduction in LPIPS loss compared to the previous state of the art.},
   abbr        = {Preprint},
   title       = {Solving Inverse Problems with NerfGANs},
   author      = {Giannis Daras and Wen-Sheng Chu and Abhishek Kumar and Dmitry Lagun and Alexandros G. Dimakis},
   year        = {2021},
-  arxiv       = {2112.090618},
+  arxiv       = {2112.09061},
   bibtex_show = {true}
 }
 
 @inproceedings{ilo_full_version,
+  abstract    = {We propose Intermediate Layer Optimization (ILO), a novel optimization algorithm for solving inverse problems with deep generative models. Instead of optimizing only over the initial latent code, we progressively change the input layer obtaining successively more expressive generators. To explore the higher dimensional spaces, our method searches for latent codes that lie within a small $l_1$ ball around the manifold induced by the previous layer. Our theoretical analysis shows that by keeping the radius of the ball relatively small, we can improve the established error bound for compressed sensing with deep generative models. We empirically show that our approach outperforms state-of-the-art methods introduced in StyleGAN-2 and PULSE for a wide range of inverse problems including inpainting, denoising, super-resolution and compressed sensing.},
   title       = {Intermediate Layer Optimization for Inverse Problems using Deep Generative Models},
   author      = {Giannis Daras and Joseph Dean and Ajil Jalal and Alexandros G. Dimakis},
   booktitle   = {ICML 2021},
@@ -319,6 +334,7 @@
 }
 
 @inproceedings{mri,
+  abstract    = {The CSGM framework (Bora-Jalal-Price-Dimakis'17) has shown that deep generative priors can be powerful tools for solving inverse problems. However, to date this framework has been empirically successful only on certain datasets (for example, human faces and MNIST digits), and it is known to perform poorly on out-of-distribution samples. In this paper, we present the first successful application of the CSGM framework on clinical MRI data. We train a generative prior on brain scans from the fastMRI dataset, and show that posterior sampling via Langevin dynamics achieves high quality reconstructions. Furthermore, our experiments and theory show that posterior sampling is robust to changes in the ground-truth distribution and measurement process. Our code and models are available at: \url(https://github.com/utcsilab/csgm-mri-langevin).},
   title       = {Robust Compressed Sensing MRI with Deep Generative Priors},
   author      = {Ajil Jalal and Marius Arvinte and Giannis Daras and Eric Price and Alexandros G. Dimakis and Jonathan I. Tamir},
   booktitle   = {NeurIPS 2021},
@@ -330,6 +346,7 @@
 }
 
 @inproceedings{smyrf,
+  abstract    = {We propose a novel type of balanced clustering algorithm to approximate attention. Attention complexity is reduced from $O(N^2)$ to $O(N \log N)$, where $N$ is the sequence length. Our algorithm, SMYRF, uses Locality Sensitive Hashing (LSH) in a novel way by defining new Asymmetric transformations and an adaptive scheme that produces balanced clusters. The biggest advantage of SMYRF is that it can be used as a drop-in replacement for dense attention layers without any retraining. On the contrary, prior fast attention methods impose constraints (e.g. queries and keys share the same vector representations) and require re-training from scratch. We apply our method to pre-trained state-of-the-art Natural Language Processing and Computer Vision models and we report significant memory and speed benefits. Notably, SMYRF-BERT outperforms (slightly) BERT on GLUE, while using $50\%$ less memory. We also show that SMYRF can be used interchangeably with dense attention before and after training. Finally, we use SMYRF to train GANs with attention in high resolutions. Using a single TPU, we were able to scale attention to 128x128=16k and 256x256=65k tokens on BigGAN on CelebA-HQ.},
   title       = {SMYRF: Efficient Attention using Asymmetric Clustering},
   author      = {Giannis Daras and Nikita Kitaev and Augustus Odena and Alexandros G. Dimakis},
   booktitle   = {NeurIPS 2020},
@@ -341,6 +358,7 @@
 }
 
 @inproceedings{ylg,
+  abstract    = {We introduce a new local sparse attention layer that preserves two-dimensional geometry and locality. We show that by just replacing the dense attention layer of SAGAN with our construction, we obtain very significant FID, Inception score and pure visual improvements. FID score is improved from $18.65$ to $15.94$ on ImageNet, keeping all other parameters the same. The sparse attention patterns that we propose for our new layer are designed using a novel information theoretic criterion that uses information flow graphs. We also present a novel way to invert Generative Adversarial Networks with attention. Our method extracts from the attention layer of the discriminator a saliency map, which we use to construct a new loss function for the inversion. This allows us to visualize the newly introduced attention heads and show that they indeed capture interesting aspects of two-dimensional geometry of real images.},
   title       = {Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models},
   author      = {Giannis Daras and Augustus Odena and Han Zhang and Alexandros G. Dimakis},
   booktitle   = {CVPR 2020},

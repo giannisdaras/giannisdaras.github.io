@@ -2,7 +2,6 @@
 layout: page
 permalink: /lab/
 title: Lab
-description: The people I work with at MIT.
 nav: true
 nav_order: 3
 ---

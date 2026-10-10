@@ -33,7 +33,7 @@
    individual selectors.
    --------------------------------------------------------------------------- */
 html {
-  font-size: 110%;
+  font-size: 125%;
 }
 
 /* ---------------------------------------------------------------------------
@@ -61,3 +61,7 @@ h2 > a[href$="/news/"],
 h2 > a[href$="/publications/"] {
   text-transform: capitalize;
 }
+
+/* Page descriptions were removed from front matter; the theme still emits an
+   empty <p class="post-description">, which would leave a gap. */
+.post-description:empty { display: none; margin: 0; }
