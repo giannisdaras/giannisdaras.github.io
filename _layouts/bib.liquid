@@ -1,7 +1,8 @@
 ---
 # Local copy of al_folio_core's _layouts/bib.liquid.
 # Only change from the gem: the entry.html button reads
-# "Project Website" instead of "HTML".
+# "Project Website" instead of "HTML", and the entry.website button reads
+# "Demo" (entry.html already covers project websites).
 # Re-copy from the gem after an al-folio upgrade.
 ---
 <div class="row">
@@ -276,7 +277,7 @@
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

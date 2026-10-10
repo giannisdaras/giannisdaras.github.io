@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /lab/
-title: Lab
+title: Research Lab
 nav: true
 nav_order: 3
 ---
@@ -34,13 +34,11 @@ My group works on research questions related to **Generative AI**. Broad topics 
   </div>
 </div>
 
-<h4 class="lab-group">Masters Students</h4>
-
 <div class="lab-person">
   <img src="{{ '/assets/img/people/yubin-kim.jpg' | relative_url }}" alt="Yubin Kim">
   <div>
     <div><a href="https://yubinkim04.github.io/" target="_blank" rel="noopener"><strong>Yubin Kim</strong></a></div>
-    <div class="lab-role">Masters Student, Operations Research Center &middot; since 2026</div>
+    <div class="lab-role">PhD Student, Operations Research Center &middot; since 2026</div>
   </div>
 </div>
 

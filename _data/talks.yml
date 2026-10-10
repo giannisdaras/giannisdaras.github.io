@@ -22,46 +22,34 @@
   year: "2025"
 - venue: "NTU Singapore"
   year: "2025"
-- venue: "Simons Institute Berkeley
-      
-      Youtube Video"
+- venue: "Simons Institute Berkeley"
   year: "2025"
-  url: https://www.youtube.com/watch?v=YJ0Q3bmYUpE&list=PLgKuh-lKre13F6duXbU7e8dJqXnRpJuxy&index=19
-- venue: "Columbia University
-      
-      Youtube Video"
+  video: https://www.youtube.com/watch?v=YJ0Q3bmYUpE&list=PLgKuh-lKre13F6duXbU7e8dJqXnRpJuxy&index=19
+- venue: "Columbia University"
   year: "2025"
-  url: https://www.youtube.com/watch?v=4HTuPx6wjJM&list=PLpktWkixc1gU0D1f4K-browFuoSluIvei&index=10
+  video: https://www.youtube.com/watch?v=4HTuPx6wjJM&list=PLpktWkixc1gU0D1f4K-browFuoSluIvei&index=10
 - venue: "Biomedical and Astronomical Signal Processing (BASP) Conference"
   year: "2025"
 - venue: "Harvard University, hosted by Sitan Chen"
   year: "2024"
 - venue: "Google DeepMind, London Office, hosted by Valentin De Bortoli and Arnaud Doucet"
   year: "2024"
-- venue: "Grundfest Lecture series (UCLA + Caltech)
-      
-      Youtube Video"
+- venue: "Grundfest Lecture series (UCLA + Caltech)"
   year: "2024"
-  url: https://www.youtube.com/watch?v=038QxC5kTLk
-- venue: "Learning on Graphs and Geometry (LoGG) Reading Group, hosted by Hannes Stark
-      
-      Youtube Video"
+  video: https://www.youtube.com/watch?v=038QxC5kTLk
+- venue: "Learning on Graphs and Geometry (LoGG) Reading Group, hosted by Hannes Stark"
   year: "2024"
-  url: https://www.youtube.com/watch?v=iCDPewLVTro
+  video: https://www.youtube.com/watch?v=iCDPewLVTro
 - venue: "Aalto University"
   year: "2024"
-- venue: "University of Wisconsin-Madison, MLOPT Idea Seminar
-      
-      Youtube Video"
+- venue: "University of Wisconsin-Madison, MLOPT Idea Seminar"
   year: "2023"
-  url: https://www.youtube.com/watch?v=qf5AZ62nO6E&t=7s
+  video: https://www.youtube.com/watch?v=qf5AZ62nO6E&t=7s
 - venue: "UT Austin, GenAI IFML Workshop"
   year: "2023"
-- venue: "EleutherAI Diffusion Reading Group
-      
-      Youtube Video"
+- venue: "EleutherAI Diffusion Reading Group"
   year: "2023"
-  url: https://www.youtube.com/watch?v=Ped_I1uPL8Q
+  video: https://www.youtube.com/watch?v=Ped_I1uPL8Q
 - venue: "Uppsala University"
   year: "2023"
 - venue: "Archimedes Research Unit"

@@ -53,8 +53,8 @@
   abbr        = {RSS},
   arxiv       = {2606.12365},
   html        = {https://ambient-diffusion-policy.github.io/},
-  award       = {**Best Paper Award** — Data-Centric Robotics Workshop, RSS 2026},
-  award_name  = {Best Paper Award},
+  award       = {**Best Paper Award** — Data-Centric Robotics Workshop, RSS 2026<br>**Most Useful Practical Information Award** — "It's the Demos" Workshop, RSS 2026},
+  award_name  = {2 Best Paper Awards},
   abstract    = {We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics. High-quality, task-specific robot data is expensive and time-consuming to collect, while suboptimal datasets with lower-quality or out-of-distribution demonstrations are abundant. Existing methods that co-train on both data sources in robotics often fail to separate the meaningful and the harmful features in the suboptimal samples. In contrast, our method extracts only the useful features by introducing a new axis to co-training in robotics: noise-dependent data usage. Ambient Diffusion Policy restricts the contribution of suboptimal data during training to only the high and low diffusion times. To rigorously justify our approach, we first observe that robot action data exhibits a spectral power law. This induces two important properties on the optimal Diffusion Policy that we exploit: a global-to-local hierarchy and locality. We theoretically formalize this discussion using a simplified model. Our experiments validate Ambient Diffusion Policy on four types of suboptimal action data (noisy trajectories, sim-to-real gap, task mismatch, and large-scale data mixtures) across six tasks. The results show that it effectively learns from arbitrary sources of suboptimal data. Notably, it outperforms existing co-training baselines by up to 33% when scaled to Open X-Embodiment - a large dataset with heterogeneous data quality and unstructured distribution shifts. Overall, Ambient Diffusion Policy increases the utility of suboptimal demonstrations and expands the set of usable data sources in robotics.},
   bibtex_show = {true},
   selected    = {true}
@@ -154,7 +154,7 @@
 @inproceedings{ambient_dps,
   abstract    = {We provide a framework for solving inverse problems with diffusion models learned from linearly corrupted data. Our method, Ambient Diffusion Posterior Sampling (A-DPS), leverages a generative model pre-trained on one type of corruption (e.g. image inpainting) to perform posterior sampling conditioned on measurements from a potentially different forward process (e.g. image blurring). We test the efficacy of our approach on standard natural image datasets (CelebA, FFHQ, and AFHQ) and we show that A-DPS can sometimes outperform models trained on clean data for several image restoration tasks in both speed and performance. We further extend the Ambient Diffusion framework to train MRI models with access only to Fourier subsampled multi-coil MRI measurements at various acceleration factors (R = 2, 4, 6, 8). We again observe that models trained on highly subsampled data are better priors for solving inverse problems in the high acceleration regime than models trained on fully sampled data.},
   title       = {Ambient Diffusion Posterior Sampling: Solving Inverse Problems with Diffusion Models trained on Corrupted Data},
-  author      = {Asad Aali and Giannis Daras and Brett Levac and Sidharth Kumar and Alexandros G. Dimakis and Jonathan I. Tamir'},
+  author      = {Asad Aali and Giannis Daras and Brett Levac and Sidharth Kumar and Alexandros G. Dimakis and Jonathan I. Tamir},
   booktitle   = {ICLR 2025},
   year        = {2024},
   abbr        = {ICLR},
@@ -198,6 +198,7 @@
   abbr        = {NeurIPS},
   arxiv       = {2307.00619},
   code        = {https://github.com/LituRout/PSLD},
+  website     = {https://huggingface.co/spaces/PSLD/PSLD},
   bibtex_show = {true}
 }
 
